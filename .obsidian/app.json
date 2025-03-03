@@ -1,0 +1,22 @@
+{
+  "attachmentFolderPath": "./z_attachments",
+  "showUnsupportedFiles": true,
+  "alwaysUpdateLinks": false,
+  "newFileLocation": "folder",
+  "promptDelete": false,
+  "trashOption": "local",
+  "newFileFolderPath": "!Inbox",
+  "useMarkdownLinks": true,
+  "newLinkFormat": "relative",
+  "vimMode": true,
+  "readableLineLength": true,
+  "showLineNumber": true,
+  "propertiesInDocument": "visible",
+  "pdfExportSettings": {
+    "includeName": true,
+    "pageSize": "Letter",
+    "landscape": false,
+    "margin": "0",
+    "downscalePercent": 100
+  }
+}
