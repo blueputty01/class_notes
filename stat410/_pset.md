@@ -17,8 +17,11 @@ From a group of 5 women and 7 men, how many different committees consisting of 2
 ## textbook problems
 
 #15, pair(s) of cards in 5 card hand
+#44, maybe: arranging people in linear order
 
 ## lecture problems
+
+make sure you know: Partitioning a Set: For every two sets A and B: \(A ∩ B\) and \(A ∩ B^c\) are disjoint and \(A = (A ∩ B) ∪ (A ∩ B^c )\) \(B\) and \(A ∩ B^c\) are disjoint, and \(A ∪ B = B ∪ (A ∩ B^c )\).
 
 pretty easy; can skip these:
 
@@ -38,12 +41,9 @@ $\mathrm{If~}E\subset F\text{,then }P(E)\leq P(F)$
 
 $P(A\cup B)=P(A)+P(B)-P(A\cap B)$
 
-# chapter 3 conditional probabiliyt and independence
+# chapter 3 conditional probability and independence
 
-In the card game bridge, the 52 cards are dealt out equally to 4
-players–called East, West, North, and South. If North and South
-have a total of 8 spades among them, what is the probability that
-East has 3 of the remaining 5 spades?
+In the card game bridge, the 52 cards are dealt out equally to 4 players–called East, West, North, and South. If North and South have a total of 8 spades among them, what is the probability that East has 3 of the remaining 5 spades?
 > ![](z_attachments/cards%20cond%20prob.png)
 
 An ordinary deck of 52 playing cards is randomly divided into 4 piles of 13 cards each. Compute the probability that each pile has exactly 1 ace.
@@ -69,3 +69,7 @@ do this with the combination formula
 	39/comb(11, 3) (symmetry)
 	15/comb(11, 3)
 	1/comb(11, 3)
+
+A man paid \$3 to play a gambling game: he will gain \$2 for each number greater than 4 when three dices are rolled. What is his expected gain?
+> ![](./z_attachments/2025-03-04-11-52-26.png)
+
