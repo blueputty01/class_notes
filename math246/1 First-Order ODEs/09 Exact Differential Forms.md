@@ -11,3 +11,5 @@ If the DE has the form $M+N{\frac{d y}{d x}}=0$, then it is exact if and only if
 
 To find integrating factor, solve the form: **$[M f(x)]_x = [N f(y)]_y$**
 > can also use $f(y)$
+
+***
