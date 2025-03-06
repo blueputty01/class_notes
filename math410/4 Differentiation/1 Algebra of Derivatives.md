@@ -10,6 +10,7 @@ $(fg)^{\prime}(x)=**\lim_{x\to x_0}\frac{f(x)g(x)-f(x_0)g(x_0)}{x-x_0}**$
 > last line assumes that $f$ is continuous at $x_0$. We prove this in another card
 
 Theorem: If $I$ is a(n) **open** interval, $f: I \rightarrow \mathbb{R}$, $x_0 \in I$, and $f'(x_0)$ exists, then $f$ is **continuous** at $x_0$.
+
 Proof:
 **$f(x) - f(x_0) = \frac{f(x) - f(x_0)}{x - x_0} (x - x_0) \rightarrow f'(x_0) \cdot 0 = 0$ as $x \rightarrow x_0$.**
 > the quantity $\frac{f(x) - f(x_0)}{x - x_0}$ exists because $f'(x_0)$ exists, which is why we need the restriction that $f'(x_0)$ exists
