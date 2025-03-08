@@ -7,3 +7,8 @@ Let $f: D \rightarrow \mathbb{R}$. We say $f$ has a **maximum** at $x_0 \in D$, 
 > Let $f: D \rightarrow \mathbb{R}$. We say $f$ has a **minimum** at $x_0 \in D$, if $f(x) \leq f(x_0)$ for all $x \in D$. $x_0$ is a **minimizer**. 
 
 ***
+
+A **Hölder** function is a function satsifying **$|f(x) - f(y)| \leq C|x-y|^\alpha$ for some $C, 0 < \alpha \leq 1$**.
+
+A **Lipscitz** function is a function satsifying **$|f(x) - f(y)| \leq C|x-y|$ for some $C$**.
+
