@@ -9,6 +9,7 @@ For any homogeneous equation, if $Y_1(t), Y_2(t)$ are solutions, then $c_1Y_1(t)
 > ![](z_attachments/Pasted%20image%2020250306214651.png)
 
 
+***
 
 if wronskian is non zero then t is in the interval. 
 

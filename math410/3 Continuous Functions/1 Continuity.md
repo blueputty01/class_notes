@@ -12,3 +12,5 @@ A **Hölder** function is a function satsifying **$|f(x) - f(y)| \leq C|x-y|^\al
 
 A **Lipscitz** function is a function satsifying **$|f(x) - f(y)| \leq C|x-y|$ for some $C$**.
 
+
+***
