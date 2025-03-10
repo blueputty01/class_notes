@@ -67,3 +67,5 @@ Let $f$ be **continuous** on $[a,b]$ and **1::differentiable** on $(a,b)$. If **
 > Then $f'(0) > 0$, but $f$ is not strictly increasing
 > ![](z_attachments/mvt-example.png)
 
+
+***
