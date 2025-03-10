@@ -12,4 +12,12 @@ Applying **Rolle's Theorem to $h(x)$**, we get:
 After some algebra, we get the result.
 > ![](z_attachments/mvt.png)
 > note that $x_0$ is not necessarily unique
-> $h'(x_0) = \frac{f(x) - \frac{}{}
+> $h'(x_0) = f'(x_0) + m = 0$ 
+> $\implies f'(x_0) = -m = \frac{f(b) - f(a)}{b - a}$
+
+Theorem: Suppose **$f: (a, b) \rightarrow \mathbb{R}$. If $|f'(x)| \leq M$ for all $x \in (a, b)$**, then **$f$ is Lipschitz**
+Proof:
+**take $x,y \in (a,b)$**
+**2::$\exists x_0 (a,b)$ such that $f'(x_0) = \frac{f(y) - f(x)}{y - x}, x \neq y$** 
+**2::$\implies|f(y)-f(x)\leq|f(x_0)||(y-x)\leq M|y-x|$** 
+
