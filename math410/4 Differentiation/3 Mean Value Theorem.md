@@ -12,5 +12,4 @@ Applying **Rolle's Theorem to $h(x)$**, we get:
 After some algebra, we get the result.
 > ![](z_attachments/mvt.png)
 > note that $x_0$ is not necessarily unique
-> $h'(x_0) = \f$
-
+> $h'(x_0) = \frac{f(x) - \frac{}{}
