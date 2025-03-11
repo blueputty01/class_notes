@@ -10,3 +10,5 @@ $$\sum_{x=0}^\infty p(x;\lambda)=\sum_{x=0}^\infty\frac{e^{-\lambda}\lambda^x}{x
 This simplification involves recognizing the **Taylor series expansion for $e^\lambda$** 
 
 
+
+***
