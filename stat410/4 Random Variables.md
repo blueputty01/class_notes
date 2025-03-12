@@ -9,6 +9,4 @@ To prove that the Poisson distribution is a valid mass function, take the sum ac
 $$\sum_{x=0}^\infty p(x;\lambda)=\sum_{x=0}^\infty\frac{e^{-\lambda}\lambda^x}{x!}=e^{-\lambda}\sum_{x=0}^\infty\frac{\lambda^x}{x!}=e^{-\lambda}e^\lambda=1$$
 This simplification involves recognizing the **Taylor series expansion for $e^\lambda$** 
 
-
-
 ***
