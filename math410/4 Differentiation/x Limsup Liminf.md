@@ -59,3 +59,5 @@ Proof for 1:
 **$x_n + y_n \leq \sup\limits_{k \geq n}x_k + \sup\limits_{k \geq n}y_k$**
 **By definition of $\sup$, $\sup\limits_{k \geq n}\left(x_k + y_k\right) \leq \sup\limits_{k \geq n}x_k + \sup\limits_{k \geq n}y_k$**
 **Then take the limit of both sides** to get the desired result.
+
+***
