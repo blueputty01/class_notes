@@ -3,10 +3,10 @@
 ## lecture problems
 
 A president and a treasurer are to be chosen from a student club consisting of 50 people. How many different choices of officers are possible if A will serve only if he is president?
-![](z_attachments/Pasted%20image%2020250130112620.png)
+	![](z_attachments/Pasted%20image%2020250130112620.png)
 
 From a group of 5 women and 7 men, how many different committees consisting of 2 women and 3 men can be formed? (19 in textbook is better)
-![](z_attachments/Pasted%20image%2020250130112637.png)
+	![](z_attachments/Pasted%20image%2020250130112637.png)
 
 ## textbook problems
 
