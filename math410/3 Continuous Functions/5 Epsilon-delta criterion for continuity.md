@@ -27,3 +27,6 @@ To prove uniform continuity for $\sqrt{x}$:
 $|\sqrt{x} - \sqrt{x_0}|^2 = **|\sqrt{x}-\sqrt{x_{0}}||\sqrt{x}-\sqrt{x_{0}}|**\leq**1::|\sqrt{x}-\sqrt{x_{0}}||\sqrt{x}-\sqrt{x_{0}}|** = **1::|x - x_0|** < \delta < \epsilon**$ by choosing $\delta < **\epsilon^2**$ 
 
 ***
+
+Prove that if $|f(u) - f(v)| \leq C |u -v|^\alpha$ for some $C > 0$ and $\alpha \in (0,1]$, then $f$ is continuous on $D$:
+**$\delta < \left(\frac{\epsilon}{C}\right)^{1 / \alpha}$** 
