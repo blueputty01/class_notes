@@ -14,7 +14,7 @@ $x_n = (-1)^n$ has $\limsup = **1**$ and $\liminf = **c1::-1**$
 $\overline{x_n} := \sup\limits_{k \geq n}{x_k}$
 The limit of $\{\overline{x_n}\}$ exists because:
 We assume that $\{\overline{x_n}\}$ is bounded below.
-It is also **monotonically decreasing** because **1::$\overline{x_{n+1}} \leq \overline{x_n}$***.
+It is also **monotonically decreasing** because **1::$\overline{x_{n+1}} \leq \overline{x_n}$**.
 Thus by **Monotone Convergence Theorem**, it converges
 > in fact, $\overline{x_n} \rightarrow \inf\limits_{n \geq 1}{\overline{x_n}}$
 > \* consider $S_n = \{x_n, x_{n+1}, x_{n+2}, \ldots\}$, then $S_{n+1} \subseteq S_n$
