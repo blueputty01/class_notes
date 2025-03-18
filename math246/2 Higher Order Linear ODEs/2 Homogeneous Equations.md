@@ -11,25 +11,4 @@ For any homogeneous equation, if $Y_1(t), Y_2(t)$ are solutions, then $c_1Y_1(t)
 
 ***
 
-if wronskian is non zero then t is in the interval. 
-
-Euler: 
-e^it = cos(t) + i sin(t)
-e^-it = cos(t) - i sin(t)
-
-cos t = (e^it + e ^ -it) / 2
-sin t = (e^it - e ^ -it) / 2i
-
-General case, v = frequency (real)
-
-e^ivt = cos(v t ) + i sin(vt) v = 3
-y'' + y = 0, we know y_1 = e^{it}, y_2=e^{-it} solutions
-
-now y_1 = cos(t), y_@ = sint are also solutions
-
-geenral solution if z_0 is a double root y'' + 2 y' + y = 0, y_1 = e^-t y2 = t e^-t
-
-
-
-
-
+If the coefficients of a homogeneous linear ODE are continuous on $(a, b)$ and $Y_1, \cdots, Y_n$ are solutions to this ODE, then either $\operatorname{Wr}(Y_1, \cdots, Y_n)(t)$ is **never $0$ or always $0$** on $(a, b)$.
