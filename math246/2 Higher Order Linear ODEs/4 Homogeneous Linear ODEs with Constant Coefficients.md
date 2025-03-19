@@ -24,4 +24,7 @@ When $r \pm si$ is a root of $p(z)$, we have solutions **$e^{rt}\cos(st),~e^{rt}
 > adding them together (since we know linear combinations are solutions)
 
 Solutions for characteristic polynomial of $y^{(n)}+a_{n-1}y^{(n-1)}+\cdots+a_{0}y=0$
-If $r \pm si$ has multiplicity $k$, $\left((z-r)^{2}+s^{2}\right)^{k}$ is a fa​​ctor of $p(z)$
+If $r \pm si$ has multiplicity $k$, ($\left((z-r)^{2}+s^{2}\right)^{k}$ is a factor of $p(z)$):
+**$e^{rt}\cos(st),~e^{rt}\sin(st),~te^{rt}\cos(st),~te^{rt}\sin(st),\ldots t^{k-1}e^{rt}\cos(st),~t^{k-1}e^{rt}\sin(st)$**
+
+***
