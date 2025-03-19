@@ -29,3 +29,6 @@ Since both f(x)f(x) and g(x)g(x) satisfy the same initial conditions at x=0
 
 ### other problems
 
+# 2 general methods and theory
+
+
