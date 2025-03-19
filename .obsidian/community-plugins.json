@@ -1,6 +1,7 @@
 [
   "obsidian-trash-explorer-fork",
   "obsidian-smart-typography",
+  "obsidian-share-as-gist",
   "quickadd",
   "quick-explorer",
   "obsidian-git",
@@ -10,5 +11,11 @@
   "dataview",
   "obsidian-editor-shortcuts",
   "copy-document-as-html",
-  "templater-obsidian"
+  "templater-obsidian",
+  "obsidian-kanban",
+  "obsidian-minimal-settings",
+  "obsidian-vimrc-support",
+  "obsidian-auto-link-title",
+  "consistent-attachments-and-links",
+  "math-ocr"
 ]

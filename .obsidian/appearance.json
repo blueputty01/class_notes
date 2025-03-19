@@ -1,7 +1,10 @@
 {
   "accentColor": "#7d52bc",
-  "cssTheme": "Minimal (fork)",
+  "cssTheme": "Minimal",
   "theme": "system",
   "translucency": false,
-  "baseFontSizeAction": false
+  "baseFontSizeAction": false,
+  "enabledCssSnippets": [
+    "heading-indicators"
+  ]
 }

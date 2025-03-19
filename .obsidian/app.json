@@ -1,11 +1,11 @@
 {
   "attachmentFolderPath": "./z_attachments",
   "showUnsupportedFiles": true,
-  "alwaysUpdateLinks": false,
+  "alwaysUpdateLinks": true,
   "newFileLocation": "folder",
   "promptDelete": false,
   "trashOption": "local",
-  "newFileFolderPath": "!Inbox",
+  "newFileFolderPath": "0inbox",
   "useMarkdownLinks": true,
   "newLinkFormat": "relative",
   "vimMode": true,
