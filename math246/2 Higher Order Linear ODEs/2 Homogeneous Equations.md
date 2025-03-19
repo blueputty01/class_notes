@@ -25,5 +25,3 @@ The solution of the initial problem satisfying the initial conditions is **$y=N_
 > $\begin{aligned}\mathrm{Wr}[N_{0},N_{1},\cdots,N_{n-1}](t_{I})&=\det\begin{pmatrix}N_0(t_I)&N_1(t_I)&\cdots&N_{n-1}(t_I)\\N_0^{\prime}(t_I)&N_1^{\prime}(t_I)&\cdots&N_{n-1}^{\prime}(t_I)\\\vdots&\vdots&\ddots&\vdots\\N_0^{(n-1)}(t_I)&N_1^{(n-1)}(t_I)&\cdots&N_{n-1}^{(n-1)}(t_I)\end{pmatrix}\\&=\det\begin{pmatrix}1&0&\cdots&0\\0&1&\ddots&\vdots\\\vdots&\ddots&\ddots&0\\0&\cdots&0&1\end{pmatrix}=1\:.\end{aligned}$
 > check for solution: $y(t_{\pm})=y_{0}\cdot1+y_{1}\cdot0+\cdots+y_{n-i}0=y_{0}$
 > $y^{\prime}(t_{I})=y_{0}\cdot0+y_{1}\cdot1+ \cdots +y_{n-1}\cdot0=y_{1}$
-
-
