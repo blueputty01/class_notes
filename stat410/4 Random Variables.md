@@ -10,3 +10,8 @@ $$\sum_{x=0}^\infty p(x;\lambda)=\sum_{x=0}^\infty\frac{e^{-\lambda}\lambda^x}{x
 This simplification involves recognizing the **Taylor series expansion for $e^\lambda$** 
 
 ***
+
+Poisson distribution derivation starting point: **$\frac{n!}{x! (n-x)!}\frac{\lambda}{n}^x\left(1-\frac{\lambda}{n}\right)^{n-x}$**
+	![](z_attachments/IMG_8CFDD2512058-1.jpeg)
+
+˝
