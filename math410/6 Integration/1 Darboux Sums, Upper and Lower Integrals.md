@@ -60,3 +60,5 @@ If **$\underline{\int_{a}^{b}}=\overline{\int_{a}^{b}}$**, we say $f$ is **integ
 > $\overline{\int_{0}^{1}}f=1$ since $M_i = 1$ for any $i$
 > $\underline{\int_{0}^{1}}f=0$ since $m_i = 0$ for any $i$
 > $0 \neq 1$, so $f$ is not Riemann-Darboux integrable
+
+***

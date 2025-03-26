@@ -56,3 +56,4 @@ So $\mathrm{Var}(X)=\frac{q\:+\:1}{p^2}\:-\:\frac{1}{p^2}\:=\:\frac{q}{p^2}\:=\:
 A random variable $X$ has the **negative binomial** distribution with parameters $r$ and $p (r = 1, 2,... \textrm{and}~0)$ if $X$ has a discrete distribution for which the p.f. is:
 **$f(x|r,p)=\begin{cases}\begin{pmatrix}r+x-1\\x\end{pmatrix}p^r(1-p)^x\\0\end{cases}$**
 > sampling until a fixed number of successes
+***
