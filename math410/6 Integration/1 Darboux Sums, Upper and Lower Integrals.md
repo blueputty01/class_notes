@@ -62,3 +62,8 @@ If **$\underline{\int_{a}^{b}}=\overline{\int_{a}^{b}}$**, we say $f$ is **integ
 > $0 \neq 1$, so $f$ is not Riemann-Darboux integrable
 
 ***
+
+$f(x)=\begin{cases}0, x \in \mathbb{R}\setminus \mathbb{Q}\\1, x \in \mathbb{Q} \end{cases}$
+For any partition $P$: 
+$U(f, p) = \sum\limits_{i=1}^{n} M_i \Delta x_i = \sum\limits_{i=1}^{n} 1 \Delta x_i  = 1$
+> by density of $\mathbb{Q}$

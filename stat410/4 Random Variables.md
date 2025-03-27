@@ -45,7 +45,7 @@ $\begin{aligned}E(X)&=\sum_{x=1}^{\infty}xq^{x-1}p\\&=**\sum_{x=1}^{\infty}(x-1+
 
 ---
 
-Calculation for $\Var({X})$ is similar
+Calculation for $Var({X})$ is similar
 
 $\begin{aligned}E[X^{2}]&=\sum_{i=1}^\infty i^2q^{i-1}p\\&=\sum_{i=1}^\infty(i\:-\:1\:+\:1)^2q^{i-1}p\\&=\sum_{i=1}^\infty(i\:-\:1)^2q^{i-1}p\:+\:\sum_{i=1}^\infty2(i\:-\:1)q^{i-1}p\:+\:\sum_{i=1}^\infty q^{i-1}p\\&=\sum_{j=0}^\infty j^2q^jp\:+\:2\sum_{j=1}^\infty jq^jp\:+\:1\\&=qE[X^2]+2qE[X]\:+\:1\end{aligned}$
 Thus $E[X^2]=\frac{2q+p}{p^2}=\frac{q+1}{p^2}$
@@ -53,7 +53,21 @@ So $\mathrm{Var}(X)=\frac{q\:+\:1}{p^2}\:-\:\frac{1}{p^2}\:=\:\frac{q}{p^2}\:=\:
 
 ---
 
-A random variable $X$ has the **negative binomial** distribution with parameters $r$ and $p (r = 1, 2,... \textrm{and}~0)$ if $X$ has a discrete distribution for which the p.f. is:
+A random variable $X$ has the **negative binomial** distribution with parameters $r$ and $p$ ($r = 1, 2,\cdots$ and $0 < p < 1$ if $X$ has a discrete distribution for which the p.f. is:
 **$f(x|r,p)=\begin{cases}\begin{pmatrix}r+x-1\\x\end{pmatrix}p^r(1-p)^x\\0\end{cases}$**
 > sampling until a fixed number of successes
-***
+
+A nonnegative random variable $X$ is **memoryless** if **$P\{X\:>\:s\:+\:t\mid X\:>\:t\}=P\{X\:>\:s\}$** for all $s, t \geq 0$
+> If an event hasn’t occurred by time $t$, the probability that it will occur after an additional $s$ time units is the same as the (unconditional) probability that it will occur after time $s$ – it forgot that it made it past time $t$!
+
+The **hypergeometric** distribution consists of **$N$ items and a random sample of size $n$. There are $r$ successes and $n-r$ failures.** 
+> sample selected without replacement
+> $r$ of the $N$ items may be classified as successes and $N-r$ classified as failures
+> $f(x)=\begin{cases} \frac{\binom{r}{x}\binom{N-r}{n-x}}{\binom{N}{n}} & \textrm{for }\max\{0,n-(N-r)\}\leq x\leq\min\{n,r\}\\ 0 & \textrm{otherwise}\end{cases}$
+> $E(X) = n\frac{r}{N}$
+> $Var{X} = n\frac{r}{N}\left(1 - \frac{r}{N}\right)\left(\frac{N-n}{N-1}\right)$
+
+Consider a hypergeometric random variable $X$ with parameter $(N, n, k)$. If $N$ and $k$ are relatively large compared to $n$, then $X$ approximately has a binomial distribution with parameter $(n, p)$ where $p = **k/N**$
+
+
+
