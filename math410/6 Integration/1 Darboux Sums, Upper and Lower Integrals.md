@@ -65,5 +65,17 @@ If **$\underline{\int_{a}^{b}}=\overline{\int_{a}^{b}}$**, we say $f$ is **integ
 
 $f(x)=\begin{cases}0, x \in \mathbb{R}\setminus \mathbb{Q}\\1, x \in \mathbb{Q} \end{cases}$
 For any partition $P$: 
-$U(f, p) = \sum\limits_{i=1}^{n} M_i \Delta x_i = \sum\limits_{i=1}^{n} 1 \Delta x_i  = 1$
-> by density of $\mathbb{Q}$
+Where $\begin{cases}m_i\equiv\inf\{f(x)\mid x\mathrm{~in~}[x_{i-1},x_i]\}\\\mathrm{and}\\M_i\equiv\sup\{f(x)\mid x\mathrm{~in~}[x_{i-1},x_i]\}&\end{cases}$
+$U(f, p) = \sum\limits_{i=1}^{n} M_i \Delta x_i = \sum\limits_{i=1}^{n} **1::1** \Delta x_i  = **1**$
+$\overline{\int_{a}^{b}}f=\inf_{p}(U(f,p))=**1::1**$
+$L(f, p) = \sum\limits_{i=1}^{n} m_i \Delta x_i = \sum\limits_{i=1}^{n} **1::0** \Delta x_i  = **0**$
+$\underline{\int_{a}^{b}}f=\sup_{p}(L(f,p))=**1::0**$
+Thus $\underline{\int_a^b} \neq \overline{\int_a^b}$ 
+> $U$ by density of $\mathbb{Q}$
+> $L$ by density of $\mathbb{R}\setminus \mathbb{Q}$
+> note that in Lebesque theory (complicated grad level), $\int_0^1 f = 0$ 
+> ![](z_attachments/Pasted%20image%2020250328113007.png)
+
+
+
+***

@@ -71,3 +71,5 @@ Consider a hypergeometric random variable $X$ with parameter $(N, n, k)$. If $N$
 
 
 
+
+***

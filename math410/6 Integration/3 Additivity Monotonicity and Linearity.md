@@ -1,0 +1,48 @@
+Lemma: Let $f: [a, b] \rightarrow \mathbb{R}$ be integrable and $\{P_{n}\}_{n=0}^{\infty}$ an Archimedean sequence of partitions. Then $\{P_n^{*}\}$ **is still::is/is not** Archimedean for any refinement.
++
+Proof:
+**$U(f,P_{n})\geq U(f,P_{n}^{*})$**
+**2::$L(f,P_{n})\leq L(f,P_n^{*})$**
+$\Rightarrow0**2::\leq U(f,P^{*}_{n})-L(f,P_{n}^{*})\leq U(f,P_{n})-L(f,P_{n})**$
+**2::$U(f,P_{n})-L(f,P_{n}) \rightarrow 0$**
+So **2::$\{U(f,p_{n}^{*})-L(f,p_{n}^{*})\}\rightarrow0$**
+
+Theorem: Let $f{:}[a,b]\to\mathbb{R}$ be integrable. Then $c\in (a, b)$, $\int_{a}^{b}f=\int_{a}^{c}f+\int_{c}^{b}f$
++
+Prior lemma: Let $f: [a, b] \rightarrow \mathbb{R}$ be integrable and $\{P_{n}\}_{n=0}^{\infty}$ an Archimedean sequence of partitions. Then $\{P_n^{*}\}$ is still Archimedean for any refinement.
++
+Proof: 
+By **Archimedes Riemann Theorem**, there exists **1::$\{P_n\}$ Archimedean sequence of partitions** for $f$ on $[a, b]$. By previous lemma, we can assume **1::$c \in P_n \forall n$, and $\{P_n\}$** is still Archimedean. 
+Let **1::$P_n = P_n' \cup P_n''$, where $P_n'$ is the partition that $P_n$ induces on $[a,c]$, and $P_n''$ is the partition that $P_n$ induces on $[c, b]$**
+We know that **1::$U(f,p_{n})-L(f,p_{n})\rightarrow0$** and that $U(f,p_{n})-L(f,p_{n}) = **[U(f,p_{n}^{\prime})+U(f,p_{n}^{\prime\prime})]-[L(f,p_{n}^{\prime})+L(f,p_{n}^{\prime\prime})]**$
+Rearranging, $=[U(f,P_{n}^{\prime})-L(f,P_{n}^{\prime})]+[U(f,P_{n}^{\prime\prime})-L(f,P_{n}^{\prime\prime})]$ 
+Since **1::the bracketed terms are nonnegative**, conclude that **1::since left hand side goes to 0, $U(f,P_n^{\prime})-L(f,P_n^{\prime})$ and $U(f,P_n^{\prime\prime})-L(f,P_n^{\prime\prime})$ must also go to $0$**. So $\{P_n^{\prime}\},\{P_n^{\prime\prime}\}$ are Archimedean sequences.
+Finally, $U(f,p_{n})=U(f,p_{n}^{\prime})+U(f,p_{n}^{\prime\prime})$ 
+$\operatorname*{lim}_{U\rightarrow\infty}n(f,p_{n})=\operatorname*{lim}_{U\rightarrow\infty}n(f,p_{n}^\prime)+\operatorname*{lim}_{U\rightarrow\infty}n(f,p_{n}^{\prime\prime})$
+So $\int_{a}^{b}f=\int_{a}^{c}f+\int_{c}^{b}f$
+> Goal: show that $\{P_n^{\prime}\}$ and $\{P_n^{\prime\prime}\}$ are Archimedean. By Archimedes Riemann Theorem, $\int_a^c f$ and $\int_a^b f$ exist
+> Lemma: If $x_{n}=y_{n}+z_{n},$ and $x_n,y_n,z_n\geq0$, then $x_n \to 0$ implies $y_n \to 0, z_n \to 0$
+
+Theorem: The integration function **is::is/is not** linear
+> $\int_{a}^{b}\alpha f + \beta g=\alpha\int_{a}^{b}f+\beta\int_{a}^{b}g$
+
+Theorem: If $f(x) \leq g(x)$, $f, g$ are integrable $\forall x \in [a, b]$, then $\int_a^b f **\leq** \int_a^b g$ 
++
+Proof:
+By **Archimedes-Riemann Theorem**, **2::$\exists \{P_n\}, \{Q_n\}$ Archimedean sequences for $f, g$ respectively**.
+**2::Let $R_n = P_n \cup Q_n$ (common refinement)**
+**$U(f,R_n)\leq U(g,R_n)$**
+Since $\sup\limits_{x_{i-1}, x_i}f(x) \leq \sup\limits_{x_{i-1}, x_i}g(x)$
+So $\int_a^b f \leq \int_a^b g$ by **Archimedes-Riemann Theorem**
+
+Theorem: If $f, |f| : [a, b] \to \mathbb{R}$ are integrable, then **$|\int_{a}^{b}f|\leq\int_{a}^{b}|f|$**. 
++
+Proof: 
+By definition of absolute value, 
+**$-|f(x/1\leq f(x)\leq|f(x)|$**
+**1::$\int_{a}^{b}(-|f|)\leq\int_{c}^{b}f\leq\int_{a}^{b}|f|$** 
+**1::$-\int_{a}^{b}(|f|)\leq\int_{c}^{b}f\leq\int_{a}^{b}|f|$**
+Thus by definition of absolute value,
+$|\int_{a}^{b}f|\leq\int_{a}^{b}|f|$
+> $-y\leq x\leq y \implies |x| \leq y$ (section 1.34)
+***
