@@ -22,6 +22,4 @@ The coefficients are the **coefficients in the binomial expansion (Pascal triang
 Once **2::the necessary power is reached**, stop and **2::take a proportion of the left side/linear combination with a previous result to produce the result**
 > $\begin{aligned}\mathrm{L}\big(e^{zt}\big)&=p(z)e^{zt},\\\mathrm{L}\big(t\:e^{zt}\big)&=p(z)\:t\:e^{zt}+p^{\prime}(z)\:e^{zt}\:,\\\mathrm{L}\big(t^2e^{zt}\big)&=p(z)\:t^2e^{zt}+2p^{\prime}(z)\:t\:e^{zt}+p^{\prime\prime}(z)\:e^{zt},\\\mathrm{L}\big(t^3e^{zt}\big)&=p(z)\:t^3e^{zt}+3p^{\prime}(z)\:t^2e^{zt}+3p^{\prime\prime}(z)\:t\:e^{zt}+p^{\prime\prime\prime}(z)\:e^{zt}\:,\\\mathrm{L}\big(t^4e^{zt}\big)&=p(z)\:t^4e^{zt}+4p^{\prime}(z)\:t^3e^{zt}+6p^{\prime\prime}(z)\:t^2e^{zt}+4p^{\prime\prime\prime}(z)\:t\:e^{zt}+p^{(4)}(z)\:e^{zt}\:.\end{aligned}$
 
-
-
 ***
