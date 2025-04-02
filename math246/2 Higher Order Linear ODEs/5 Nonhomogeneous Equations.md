@@ -1,2 +1,8 @@
-$\begin{aligned}&\text{cy.}&&y^{\prime\prime}+4y=0\quad\mathrm{Mao}\quad\mathrm{Siukim}\quad\mathrm{V}_{1}|k|=\cos(2t),\\&&&F_{1}\alpha<NFS_{2}S\quad\mathrm{at}\quad\mathrm{Y}_{2}[H_{1}=\sin(2t),\\&&&L=nd\cdot\mathrm{fad},\mathrm{at}\quad t=0.\\&S_{2}^{\prime}:N_{2}k_{1}=C_{1}\cos(2t)+C_{2}\sin(2t)\\&&&\hookrightarrow N_{2}(0)=1\quad\longrightarrow\quad1=C_{1}\\&&&N_{2}(0)=0\quad\longrightarrow\quad0=2C_{2}\}\quad\Rightarrow C_{1}=1\\&&&\Rightarrow N_{2}(t)=C_{2}\cos(2t).\\&&&N_{1}(t_{1})=C_{1}\cos(2t)+C_{2}\sin(2t)\\&&&L\rightarrow N_{1}(0)=0\rightarrow0~=~C、2\\&&&N_{1}^{\prime}(0)=1\rightarrow\quad(1=2C_{2})\}\Rightarrow C_{2}=\frac{1}{2}\\&&&\Rightarrow N_{1}(t_{1}=\frac{1}{2}\sin(2t).\end{aligned}$
+Process for solving $y^{(n)}+a_{n-1}(t)y^{(n-1)}+\ldots+a_{1}(t)y^{\prime}+a_{0}(t)y=f(t).$:
+Where $L(y)= y^{(n)}+a_{n-1}(t)y^{(n-1)}+\ldots+a_{1}(t)y^{\prime}+a_{0}(t)y$
+1. **find the general solution $Y_H(t)$ of the associated homogeneous ODE $L(y) = 0$**
+2. **1::Find any one solution $Y_p(t)$ to $L(y) = f(t)$**
+3. The general solution to $L(y) = f(t)$ is **$Y_H(t) + Y_p(t)$**.
+**find general solution to $L(y) = f(t)$ before solving for $C_1, C_2$::order of solving for $C_1, C_2$ vs general solution for $L(y) = f(t)$**
 
+***

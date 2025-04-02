@@ -51,7 +51,7 @@ $\overline{\int_a^b} f \leq U(f,p)$ by definition of inf
 Prove $\underline{\int_{a}^{b}}\leq\overline{\int_{a}^{b}}$:
 for any $p_1$, $p_2$, $L(f,p_{1})\leq U(f,p_{0})$
 **$\sup L(f,p_1)\leq U(f,p_2)$**
-**$\sup_{p_1}L(f,p_1)\leq\inf_{p_2}L(fp_2)$**
+**$\sup_{p_1}L(f,p_1)\leq\inf_{p_2}U(fp_2)$**
 So $\underline{\int_{a}^{b}}\leq\overline{\int_{a}^{b}}$
 
 If **$\underline{\int_{a}^{b}}=\overline{\int_{a}^{b}}$**, we say $f$ is **integrable** and write $\int_a^b f$ for the common value.

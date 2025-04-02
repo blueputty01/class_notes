@@ -31,4 +31,10 @@ Since both f(x)f(x) and g(x)g(x) satisfy the same initial conditions at x=0
 
 # 2 general methods and theory
 
+# 6 nonhomogeneous
 
+![](z_attachments/Pasted%20image%2020250331221541.png)
+
+# 7 variable coefficients
+
+![](z_attachments/Pasted%20image%2020250331222954.png)
