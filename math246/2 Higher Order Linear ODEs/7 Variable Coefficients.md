@@ -15,5 +15,5 @@ Thus the final solution is $y=**C_{1}Y_{1}(t)+C_{2}Y_{2}(t)+u_1(t)Y_1(t)+u_2(t)Y
 > Guess: $Y_{p}=u_{1}Y_{1}+u_{2}Y_{2}+u_{3}Y_{3}$
 > $\begin{pmatrix}Y_1&Y_2&Y_3\\Y_1^{\prime}&Y_2^{\prime}&Y_3^{\prime}\\Y_1^{\prime\prime}&Y_2^{\prime\prime}&Y_3^{\prime\prime}\end{pmatrix}\begin{pmatrix}U_1^{\prime}\\U_2^{\prime}\\U_3^{\prime}\end{pmatrix}=\begin{pmatrix}0\\0\\f\end{pmatrix}$
 
-
 ***
+

@@ -6,3 +6,5 @@ Where $L(y)= y^{(n)}+a_{n-1}(t)y^{(n-1)}+\ldots+a_{1}(t)y^{\prime}+a_{0}(t)y$
 **find general solution to $L(y) = f(t)$ before solving for $C_1, C_2$::order of solving for $C_1, C_2$ vs general solution for $L(y) = f(t)$**
 
 ***
+
+

@@ -33,6 +33,8 @@ Since both f(x)f(x) and g(x)g(x) satisfy the same initial conditions at x=0
 
 # 6 nonhomogeneous
 
+exercise 5 in exercise environment
+
 ![](z_attachments/Pasted%20image%2020250331221541.png)
 
 # 7 variable coefficients

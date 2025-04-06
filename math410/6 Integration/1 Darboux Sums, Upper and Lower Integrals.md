@@ -46,7 +46,7 @@ Lemma:
 **$L(f,p)\leq\underline{\int_{a}^{b}}f\leq\overline{\int_{a}^{b}}f\leq U(f,p)$::relationship between $L(f,p), \underline{\int_{a}^{b}}f, \overline{\int_{a}^{b}}f, U(f,p)$**
 +
 Proof: 
-$L(f,0)\leq\underline{\int_a^b}f$ by definition of sup
+$L(f,p)\leq\underline{\int_a^b}f$ by definition of sup
 $\overline{\int_a^b} f \leq U(f,p)$ by definition of inf
 Prove $\underline{\int_{a}^{b}}\leq\overline{\int_{a}^{b}}$:
 for any $p_1$, $p_2$, $L(f,p_{1})\leq U(f,p_{0})$
