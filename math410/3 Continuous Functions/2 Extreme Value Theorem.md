@@ -24,3 +24,7 @@ Thus $f(x_0) = M$.
 > we can't directly state that the sequence (not subsequence) is bounded because we don't know if it converges to an element in $D$
 
 ***
+
+**False::True/false**: If $f:D=(-1,1)\to\mathbb{R}$ is a convergent function, then $f(D)$ is bounded.
+
+***

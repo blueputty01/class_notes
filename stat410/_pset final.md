@@ -2,3 +2,8 @@ In an NBA (National Basketball Association) championship series, the team who wi
 1. What is the probability that team A will win the series in six games? (0.442) 
 2. What is the probability that team A will win the series? (0.608)
 
+# chapter 4
+
+textbook problem 8
+
+theoretical exercises 4.5

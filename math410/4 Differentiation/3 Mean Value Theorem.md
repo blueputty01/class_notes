@@ -31,7 +31,7 @@ Then, **$\frac{f(x) - f(x_0)}{x - x_0} \geq 0$ for all $x \in (a,b)$, $x < x_0$*
 Similarly, **$f'(x_0)=\lim_{x\to x_0,x>x_0}\frac{f(x)-f(x_0)}{x-x_0}\leq0$**.
 Thus, $f'(x_0) = 0$.
 
-**Roll's Theorem::Theorem Name** 
+**Rolle's Theorem::Theorem Name** 
 Let $f$ be **continuous on $[a,b]$ and differentiable on $(a,b)$**. **If $f(a) = f(b)$**, then **there exists a number $c$ in $(a,b)$ such that $f'(c) = 0$**.
 +
 Proof:
@@ -67,5 +67,13 @@ Let $f$ be **continuous** on $[a,b]$ and **1::differentiable** on $(a,b)$. If **
 > Then $f'(0) > 0$, but $f$ is not strictly increasing
 > ![](z_attachments/mvt-example.png)
 
+
+***
+
+Fix any real numbers $a$ and $b$, and an even number $n$. Prove that the equation $x^n+ax+b=0$ has at most two solutions, $x \in \mathbb{R}$:
+**use Rolle's theorem to prove that $f'(x) = 0$ can have at most $n-1$ solutions, thus $f(x) = 0$ has at most $n$ solutions**, then **1::$\frac{d}{dx}x^n + ax + b = nx^{n-1}$, which has at most one solution; thus $x^n+ax+b$ has at most two solutions**
+
+Let $f : \mathbb{R} \rightarrow \mathbb{R}$ and fix $n \in \mathbb{N}$. Suppose the equation $f^\prime (x) = 0$ has at most $n − 1$ solutions. Prove that $f(x) = 0$ has at most $n$ solutions.
+**Assume BWOC that $f(x) = 0$ has more than $n$ solutions, say $x_1, \cdots x_{n+1}$. Thus there are $n$ critical points. By Rolle's Theorem, for each of these pairs, there exists $x_{i_0} \in (x_i, x_{i+1})$ such that $f'(x_{i_0}) = 0$. There are $n$ of these points. However, $f'(x) = 0$ has at most $n-1$ solutions, thus contradiction and $f(x) = 0$ has at most $n$ solutions.**
 
 ***
