@@ -1,5 +1,3 @@
-# Preliminary
-
 Natural numbers in MATH410 are **$\mathbb{N} = \{1, 2, 3, 4, \cdots\}$**
 	countably infinite ($\mathbb{N, Z, Q}$)
 
@@ -35,4 +33,9 @@ if $a \in \mathbb{R}$: **$a \in P$ or $-a \in P$ or $a = 0$ (trichotomy)**
 
 If **both positivity and field axioms are true**, then $\mathbb{R}$ is a(n) **ordered field**.
 
+***
+
+An **ansatz** is a(n) **assumption** about the form of an unknown function
+> made to facilitate solution of an equation or other problem
+> used in 8.1 Taylor polynomials proof
 ***
