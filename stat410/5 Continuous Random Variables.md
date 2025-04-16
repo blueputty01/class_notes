@@ -19,3 +19,30 @@ The DeMoivre-Laplace limit theorem: states that as $n \to \infty$, the distribut
 > For poisson, Bin(n, C / n)
 
 ***
+
+Correction to approximation of binomial distribution using normal curve: **$\approx P\left(Z\leq\frac{x+0.5-np}{\sqrt{npq}}\right)\\\approx P\left(Z\leq\frac{x+0.5-np}{\sqrt{npq}}\right)$**
+	![](z_attachments/Pasted%20image%2020250415111144.png)
+
+The **exponential** distribution describes **the time until the occurrence of a Poisson event (or the time between Poisson events)**.
+
+The **gamma** distribution describes **the time (or space) occurring until a specified number of Poisson events occur**.
+> $f(x|\alpha,\beta) = \frac{1}{\beta^\alpha \Gamma(\alpha)}x^{\alpha-1}e^{-x/\beta}$ for $x > 0$
+> $F(w)=1-P(\text{fewer than α events in }[0,w])$
+> $F(w)=1-\sum_{k=0}^{\alpha-1}\frac{(\lambda w)^ke^{-\lambda w}}{k!}$
+> we get the pdf after taking the derivative
+
+Gamma function generalizes **factorials** to all real numbers.
+> $\Gamma(\alpha)=\int_0^\infty x^{\alpha-1}e^{-x}dx$
+> $\Gamma(\alpha)=x^{\alpha-1}e^{-x}|_0^\infty+\int_0^\infty(\alpha-1)x^{\alpha-2}e^{-x}dx=(\alpha-1)\int_0^\infty x^{\alpha-2}e^{-x}dx$
+> $\Gamma(\alpha)=(\alpha-1)\Gamma(\alpha-1)$
+
+Let $X$ be the amount of time until the first arrival in a Poisson process with rate $\lambda$. Then $X ∼ \operatorname{Exp}(1/\lambda)$.
+Reference:
+Exponential pdf: $f(x|\lambda) = \frac{1}{\beta}e^{-x/\beta}$ for $x > 0$
+Proof:
+$\begin{aligned}F(x)&=P(X\leq t)\\&=1-P(\text{no arrivals in }[0,t])\\&=1-\frac{e^{-\lambda t}(\lambda t)^0}{0!}\\&=1-e^{-\lambda t}\end{aligned}$
+**Take derivative, $\lambda e^{-\lambda t}$**
+
+
+
+***

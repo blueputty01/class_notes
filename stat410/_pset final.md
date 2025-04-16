@@ -7,3 +7,8 @@ In an NBA (National Basketball Association) championship series, the team who wi
 textbook problem 8
 
 theoretical exercises 4.5
+
+# chapter 5
+
+exponential, gamma practice
+![](z_attachments/Pasted%20image%2020250415120114.png)
