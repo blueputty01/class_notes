@@ -80,6 +80,7 @@ $\text{Recall (or **TPR**)}=**\frac{\text{correctly classified actual positives}
 
 $\mathrm{FPR}=**\frac{\text{incorrectly classified actual negatives}}{\text{all actual negatives}}**=**2::\frac{FP}{FP+TN}**$
 
-$**\mathrm{Precision}**=**\frac{\text{correctly classified actual positives}}{\text{everything classified as positive}}**=**2::\frac{TP}{TP+FP}**$
-
 ***
+
+$\mathrm{Precision}=**\frac{\text{correctly classified actual positives}}{\text{everything classified as positive}}**=**2::\frac{TP}{TP+FP}**$
+
