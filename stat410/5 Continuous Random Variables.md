@@ -43,6 +43,4 @@ Proof:
 $\begin{aligned}F(x)&=P(X\leq t)\\&=1-P(\text{no arrivals in }[0,t])\\&=1-\frac{e^{-\lambda t}(\lambda t)^0}{0!}\\&=1-e^{-\lambda t}\end{aligned}$
 **Take derivative, $\lambda e^{-\lambda t}$**
 
-
-
 ***
