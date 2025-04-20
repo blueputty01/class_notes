@@ -20,4 +20,6 @@ exercise 24 for FTC, implicit differentiation practice (but low key i don't real
 
 exercise 5 if want phase portrait practice
 
+## 9 exact forms
 
+finding original equation given initial condition
