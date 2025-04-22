@@ -12,3 +12,7 @@ theoretical exercises 4.5
 
 exponential, gamma practice
 ![](z_attachments/Pasted%20image%2020250415120114.png)
+
+homework 5 problems (chap 4)
+
+5.7

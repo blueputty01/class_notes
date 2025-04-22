@@ -27,3 +27,8 @@ The solution of the initial problem satisfying the initial conditions is **$y=N_
 > $y^{\prime}(t_{I})=y_{0}\cdot0+y_{1}\cdot1+ \cdots +y_{n-1}\cdot0=y_{1}$
 
 ***
+
+The Wronskian of the equation $y''+a(x)y'+b(x)y=0$ satisfies the ODE **$W^{\prime}+a(x)W=0$**
+> memorize for final lol
+> $\begin{aligned}W^{\prime}&=\quad(y_1y_2'-y_2y_1')'=y_1'y_2'+y_1y_2''-y_2'y_1'-y_2y_1''\\&=\quad y_1y_2''-y_2y_1''=y_1(-ay_2'-by_2)-y_2(-ay_1'-by_1)\\&=\quad-a(y_1y_2'-y_2y_1')=-aW,\end{aligned}$
+***
