@@ -2,9 +2,11 @@ These notes contain all definitions and theorems from lecture.
 
 These notes also contain class and homework examples that I found challenging/I felt had some sort of trick to them. I would be careful using them as your instructor may have different focuses.
 
-Notes for the anki version of these notes:
+About the anki version of these notes:
 - Almost all typos have been corrected in the Anki version. I backported the worst errors; the rest of the errors in these markdown files are up to the reader to catch
-- When I'm reviewing, I'm pretty handwavey. As long as I get the general idea of a theorem it's good enough.
+	- Thus some things are explained in the Anki extra field but not in these notes
+- When I'm reviewing, I'm pretty hand-wavey. As long as I get the general idea of a theorem it's good enough.
+- While handwritten notes, the markdown files, and the notes often have a 1-1 relationship, I sometimes have more information on the original handwritten notes and will pull them up occasionally while reviewing to clarify doubts
 
 Notes for future versions of these notes:
 - standardize theorem/definition/example cards in beginning of semester
