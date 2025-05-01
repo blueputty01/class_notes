@@ -16,3 +16,5 @@ exponential, gamma practice
 homework 5 problems (chap 4)
 
 5.7
+![](z_attachments/Pasted%20image%2020250501120319.png)
+![](z_attachments/Pasted%20image%2020250501120932.png)

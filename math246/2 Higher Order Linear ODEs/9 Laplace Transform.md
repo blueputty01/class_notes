@@ -18,27 +18,27 @@ $\cos(x) = \frac{e^{ix} + e^{-ix}}{2}$
 
 we can proceed with the following steps:
 
-### Step 1: Recall Euler's Identity
+**Step 1: Recall Euler's Identity**
 Euler's Identity relates the exponential function to trigonometric functions:
 
 $e^{ix} = \cos(x) + i \sin(x)$
 
-### Step 2: Find the Complex Conjugate
-Take the complex conjugate of Euler's Identity to get an expression for \( e^{-ix} \):
+**Step 2: Find the Complex Conjugate**
+Take the complex conjugate of Euler's Identity to get an expression for $e^{-ix}$:
 
 $e^{-ix} = \cos(x) - i \sin(x)$
 
-*Note: The cosine function is even (\(\cos(-x) = \cos(x)\)), and the sine function is odd (\(\sin(-x) = -\sin(x)\)).*
+*Note: The cosine function is even ($\cos(-x) = \cos(x)$), and the sine function is odd ($\sin(-x) = -\sin(x)$).*
 
-### Step 3: Add the Two Equations
-Add the expressions for \( e^{ix} \) and \( e^{-ix} \):
+**Step 3: Add the Two Equations**
+Add the expressions for $e^{ix}$ and $e^{-ix}$:
 
 $e^{ix} + e^{-ix} = \left( \cos(x) + i \sin(x) \right) + \left( \cos(x) - i \sin(x) \right)$
 
 $e^{ix} + e^{-ix} = 2\cos(x)$
 
-### Step 4: Solve for \(\cos(x)\)
-Divide both sides by 2 to isolate \(\cos(x)\):
+**Step 4: Solve for $\cos(x)$**
+Divide both sides by 2 to isolate $\cos(x)$:
 
 $\cos(x) = \frac{e^{ix} + e^{-ix}}{2}$
 
@@ -71,5 +71,5 @@ A function $f(t)$ defined over $[0, \infty]$ that is piecewise continuous over e
 
 Suppose $f$ and $g$ are exponential of order $\alpha$ and $\beta$ as $t \to \infty$.
 Then:
-1. 
+1. …
 
