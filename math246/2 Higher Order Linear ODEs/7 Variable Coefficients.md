@@ -17,3 +17,9 @@ Thus the final solution is $y=**C_{1}Y_{1}(t)+C_{2}Y_{2}(t)+u_1(t)Y_1(t)+u_2(t)Y
 
 ***
 
+Consider the ODE $Ly=f(t)$ for the linear operator with constant coefficients $L=D^{n}+a_{1}D^{n-1}+\cdots+a_{n-1}D+a_{0}$. 
+For any initial time $t_I$, the particular solution that solves the IVP $LY_P(t)=f(t),~Y_P(tI)=Y_P^1(t_I)=\ldots=Y_P^{(n-1)}(t_I)=0$ is given by the formula $y_{p}(t)=**\int_{t_{I}}^{t}g(t-s)f(s)ds**$, where $g(t)$ is **the solution to the homogeneous initial value problem $Lg=0,\quad g(0)=0,\quad g^{\prime}(0)=0,\ldots,\quad g^{(n-2)}(0)=0,\quad g^{(n-1)}(0)=1$**
+The function $g$ is called the **Green function** of $L$.
+> can be checked by applying chain rule
+> notice that we do not require $f(t)$ to be of a particular form
+***
