@@ -197,5 +197,3 @@ Then $\mathcal{L}[f * g](s)$ is defined for every $s>\alpha$ with $\mathcal{L}[f
 > Used to compute inverse Laplace transforms
 
 ***
-
-$\mathcal{L}[t^ke^{at}\cos(bt)](s)=\textrm{Re}\left(\frac{k!}{(s-a-ib)^{k+1}}\right)$
