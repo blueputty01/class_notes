@@ -5,7 +5,7 @@ These notes also contain class and homework examples that I found challenging/I 
 About the anki version of these notes:
 - Almost all typos have been corrected in the Anki version. I backported the worst errors; the rest of the errors in these markdown files are up to the reader to catch
 	- Thus some things are explained in the Anki extra field but not in these notes
-- When I'm reviewing, I'm pretty hand-wavey. As long as I get the general idea of a theorem it's good enough.
+- When I'm reviewing, I'm pretty hand-wavey. As long as I get the general idea of a theorem it's good enough. I think it's a waste of time to make sure every single line of the proof is properly accounted for
 - While handwritten notes, the markdown files, and the notes often have a 1-1 relationship, I sometimes have more information on the original handwritten notes and will pull them up occasionally while reviewing to clarify doubts
 
 Notes for future versions of these notes/cards:
