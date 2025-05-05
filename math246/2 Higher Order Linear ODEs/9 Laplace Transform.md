@@ -125,10 +125,10 @@ $y(0)=y_0,y^1(0)=y_1,\ldots,y^{(n-1)}(0)=y_{n-1}$
 How to compute $Y(s)=\mathcal{L}[y](s)$?
 1. **By linearity, the Laplace transform of the differential equation is $\mathcal{L}[y^{(n)}]+a_1 \mathcal{L}[y^{(n-1)}]+\cdots+a_{n-1}\mathcal{L}[y^{\prime}]+a_n\mathcal{L}[y]=\mathcal{L}[f]$**
 2. **1::An $n$-fold application of the derivative formula gives**
-   **$\mathcal{L}[y](s) = Y(s)$**
-   **$\mathcal{L}[y'](s) = s \mathcal{L}[y](s) - y(0) = s Y(s) - y_0$**
-   **$\mathcal{L}[y''](s) = s^2 \mathcal{L}[y](s) - s y(0) - y'(0) = s^2 Y(s) - s y_0 - y_1$**
-   **$\mathcal{L}[y^{(n)}](s) = s^n Y(s) - s^{n-1} y_0 - s^{n-2} y_1 - \cdots - s y_{n-2} - y_{n-1}$**
+**$\mathcal{L}[y](s) = Y(s)$**
+**$\mathcal{L}[y'](s) = s \mathcal{L}[y](s) - y(0) = s Y(s) - y_0$**
+**$\mathcal{L}[y''](s) = s^2 \mathcal{L}[y](s) - s y(0) - y'(0) = s^2 Y(s) - s y_0 - y_1$**
+**$\mathcal{L}[y^{(n)}](s) = s^n Y(s) - s^{n-1} y_0 - s^{n-2} y_1 - \cdots - s y_{n-2} - y_{n-1}$**
 3. **1::Compute $\mathcal{L}[f](s)$**
 4. **1::Place the results of 2 and 3 into the relation in 1**
 5. Solve the linear algebraic equation for $Y(s)$ to obtain $Y(s)=\frac{q(s)+F(s)}{p(s)}$
@@ -163,3 +163,39 @@ To compute the Laplace transform of the function $u(t-c)h(t)$, we want the form 
 
 ***
 
+# Impulse Forcing
+
+The Dirac delta "function" is approximately $\delta(t)=\begin{cases}+\infty&\mathrm{if~}**t=0**\\0&\mathrm{otherwise}\end{cases}$
+
+The Dirac delta has the property that for every interval $[a, b]$ containing $0$ and any continuous function $\phi$ on $[a, b]$, $\int_{a}^{b}\delta(t)\phi(t)dt=\phi(0)$
+Corollary: 
+$\mathcal{L}[\delta](s)=\int_{0}^{\infty}e^{-st}\delta(s)ds=**1**$
+$L[\delta(t-c)](s)=\int_{0}^{\infty}e^{-st}\delta(t-c)dt=**e^{-cs}**\quad for\quad c>0$
+> note that the IVP with forcing $f(t)=\delta(t)$ has the Green function as its solution
+
+# Convolutions
+
+Let $f(t)$ and $g(t)$ be two functions defined over $[0, \infty)$. 
+Their **convolution** is a third function **$(f*g)(t)$** defined by the formula **1::$(f*g)(t)=\int_{0}^{t}f(t-\tau)g(\tau)d\tau$**
+> can be thought of as a product between functions; satisfies:
+> - commutative
+> - distributive
+> - associative
+
+For every continuous function $f$ on $[0, \infty)$:
+$(f*\delta)(t)=\int_{0}^{t}f(t-\tau)\delta(\tau)d\tau=**f(t)**$
+> ie the Dirac delta acts like the identity for convolution
+
+Theorem: 
+Let $f(t)$ and $g(t)$ be:
+- piecewise continuous on every $[0, T]$
+- of exponential order $\alpha$ as $t \to \infty$
+Then $\mathcal{L}[f * g](s)$ is defined for every $s>\alpha$ with $\mathcal{L}[f * g](s) = **F(s) G(s)**$
+> Where $F(s)=L[f](s)$ and $G(s)=L[g](s)$
+> The Laplace transform turns convolutions into multiplication
+> Proof is omitted but is an application of change of variables
+> Used to compute inverse Laplace transforms
+
+***
+
+$\mathcal{L}[t^ke^{at}\cos(bt)](s)=\textrm{Re}\left(\frac{k!}{(s-a-ib)^{k+1}}\right)$

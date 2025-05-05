@@ -40,3 +40,14 @@ exercise 5 in exercise environment
 # 7 variable coefficients
 
 ![](z_attachments/Pasted%20image%2020250331222954.png)
+
+# 9 laplace transform
+
+![](z_attachments/Pasted%20image%2020250503173303.png)
+
+![](z_attachments/Pasted%20image%2020250503201821.png)
+
+![](z_attachments/Pasted%20image%2020250503205454.png)
+
+![](z_attachments/Pasted%20image%2020250503205707.png)
+

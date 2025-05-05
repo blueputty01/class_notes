@@ -8,9 +8,10 @@ About the anki version of these notes:
 - When I'm reviewing, I'm pretty hand-wavey. As long as I get the general idea of a theorem it's good enough.
 - While handwritten notes, the markdown files, and the notes often have a 1-1 relationship, I sometimes have more information on the original handwritten notes and will pull them up occasionally while reviewing to clarify doubts
 
-Notes for future versions of these notes:
+Notes for future versions of these notes/cards:
 - standardize theorem/definition/example cards in beginning of semester
 	- example cards should have source(homework, lecture, textbook)
 	- theorem cards should have conditions and implications separated
 	- keep proof and theorem cloze on the same card
+- standardize whether theorem hypotheses should be combined in one cloze set with the theorem result
 - standardize continuous, compact notation (eg continuous, closed and bounded, continuous and compact, or $C[a, b] \to \mathbb{R}$)
