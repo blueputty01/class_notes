@@ -8,6 +8,8 @@ textbook problem 8
 
 theoretical exercises 4.5
 
+![](z_attachments/Pasted%20image%2020250505163033.png
+
 # chapter 5
 
 exponential, gamma practice
