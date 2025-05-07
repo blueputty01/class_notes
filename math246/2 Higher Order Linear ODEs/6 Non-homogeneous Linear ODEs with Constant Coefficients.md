@@ -14,7 +14,7 @@ Guess $Y_{p}(t)=**At^{m}e^{rt}\cos(st)+Bt^me^{rt}\sin(st)**$
 If $f(t)$ is of composite form, eg $f(t)=e^{2t}+9\cos(5t)$:
 Approach: **Split $f(t)$ into parts (works because it's linear)**
 
-Key Identity approach to solving non-homogeneous linear ODEs with constant coefficients:
+*Key* Identity approach to solving non-homogeneous linear ODEs with constant coefficients:
 **$L(e^{zt})=p(z)e^{zt}$**
 **$L(te^{zt})=(p^{\prime}(z)+p(z)t)e^{zt}$**
 **$L(t^{2}e^{zt})=(p^{\prime\prime}(z)+2p^{\prime}(z)t+p(z)t^{2})e^{zt}$**
