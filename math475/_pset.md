@@ -31,3 +31,8 @@ Let $a_i$ be the accumulated hours up to day $i$. This is a sequence of length 3
 Observe that $\{a_i\}^{30}_{i=1}$ are distinct, and $\{b_i\}^{30}_{i=1}$ are distinct
 However the largest value of the sequences is $59$, but there are 60 sequence values. By the PHP, there exists some $a_i$ equal to $b_j$, so $a_i = b_j = a_j + 14$
 There exists days $j$ to $i$ where he worked out exactly 14 hours
+
+# 1.4 Compositions and Set Partitions
+
+Example: Suppose there are 10 cans of Coke, 10 cans of Pepsi, 10 cans of Sprite. How many ways can you take 4 sodas?
+Solution: We want $x_1 + x_2 + x_3 = 4$ ($n = 4, k=3$). Total ways is $\binom{4 + 3 - 1}{3 - 1}$
