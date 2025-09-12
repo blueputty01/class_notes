@@ -57,5 +57,17 @@ Want $\mathcal{O}$: $AC(n) \leq 1 + \frac{{\sqrt{n}} ({\sqrt{n}} + 1)(2{\sqrt{n}
 
 ---
 
-
 ***
+
+The Token (Banker's) Method:
+
+---
+
+Intuition: if our expensive operation is at the end of a run, then it's sufficient to look at just one run.
+Final think: We deposit $\beta$ (average operation cost) per operation. We can then figure out:
+- How much we've deposited over a run (run end - run start)
+- Must deposit $\beta (\textrm{run end} - \textrm{run start})$
+- Total cost: 
+- 
+
+---

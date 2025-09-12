@@ -6,6 +6,12 @@
 - 4d
 - 7
 
+## homework
+
+- 2c
+- 3a
+- 
+
 # 1.2 Counting in Two Ways
 
 ## class notes

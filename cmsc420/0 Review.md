@@ -11,4 +11,5 @@ Case 3: If $f(n) \in **\Omega \left(n^c\right)**$ and **$\log_b a < c$** then $T
 	doesn't apply to $T(n) = 16 T(\frac{n}{4}) + f(n), f(n) \in O(n^2)$ (only possible case is case 1, $log_b a = log_4 16 = 2 \ngtr c$)
 
 $\sum^{n}_{i = 1} a_i = **\frac{n(a_1 + a_n)}{2}**$ 
+
 ***
