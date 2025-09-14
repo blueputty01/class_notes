@@ -11,3 +11,14 @@ I self-surveil by attempting strict adherence to my digital calendar where I tim
 **Provide at least one question for Friday's discussion.**
 
 We talked a lot about what privacy is. Is the algorithmic matching of our interactions with a service (like Instagram, Google, Youtube) to show us more tuned advertisements necessarily an infringement on privacy? We interact with these services out of free will and agree to terms of service, so this could merely be a simple transaction. Let's assume that data is guaranteed to be properly stored such that no individual can access it. 
+
+# discussion notes
+
+What are the challenges of moving away from such an individualized conception of privacy?
+
+Is this empowering? Or does it further subject us to the desires of the surveillant?
+
+When is surveillance overbearing and invading our privacy? When is it not?
+
+Why do we have seemingly strong fears of surveillance?
+> there are definitely benefits! think demography, census, IRS, etc

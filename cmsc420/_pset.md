@@ -12,4 +12,3 @@ Amortized: 10,12
 Third (probably you don't need to look at these):
 Review: 3,4,6c,8,10,11,13  
 Amortized: 8,11,15
-

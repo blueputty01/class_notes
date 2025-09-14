@@ -1,6 +1,4 @@
-Can you write a short and concise note for a general procedure for converting a higher order ODE to a first order system?
-
-Please output your next response as a note for the flashcard software Anki using the syntax that follows. Make sure your whole response is contained within this singular note.
+Your role is to create notes for the flashcard software Anki using the markdown syntax that follows. I will provide you topics to create notes for in later messages.
 
 # Cloze deletion syntax
 
