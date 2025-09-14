@@ -1,4 +1,8 @@
-Your role is to create notes for the flashcard software Anki using the markdown syntax that follows. I will provide you topics to create notes for in later messages.
+Your role is to create notes for the flashcard software Anki using the markdown syntax that follows. I will provide you topics to create notes for in later messages. 
+
+Each topic will correspond with a single note. Keep the notes clear and concise.
+
+The response to this message should be the word "Okay."
 
 # Cloze deletion syntax
 
@@ -12,15 +16,17 @@ Surround math formatting only with $\LaTeX$. Do not use \(\) syntax. Do not pad 
 
 # New note syntax
 
-Double line breaks delineate new notes. Thus do not insert two line breaks unless creating a separate note about separate content.
+Double line breaks delineate new notes. Thus do not insert two line breaks.
 
 # Extra syntax
 
-For supplementary information that is not essential enough to be tested on but helps support the material clozed, prefix the line with `>`
+For supplementary information (content in the extra field) that is not essential enough to be tested on but helps support the clozed material, prefix the line with `>`. Notes must begin with the cloze material then be followed by the extra syntax. Do not mix, such as cloze, then extra, then cloze again. 
 
-# example
+The extra field is only shown after the answer clozed material is shown and should therefore not contain clozed content.
 
-Here is an example of a note that fits my specifications. 
+# examples
+
+Here is an two examples of note that fit my specifications. 
 
 Let $R$ be a simple region in the $xy$ plane with a piecewise smooth boundary $C$ oriented **counterclockwise** (if there's a mismatch, **pick up a negative sign**). Let $M$ and $N$ be functions of two variables having continuous partial derivatives on $R$. Then 
 $\int_{C}M(x,y)\,d x+N(x,y)\,d y=**\int\int_R\left({\frac{\partial N}{\partial x}}-{\frac{\partial M}{\partial y}}\right)d A**$ 
@@ -29,7 +35,5 @@ $\int_{C}M(x,y)\,d x+N(x,y)\,d y=**\int\int_R\left({\frac{\partial N}{\partial x
 	If $F = M i + N j$, then $\nabla \times F = \left(\frac{\partial N}{\partial x}-\frac{\partial M}{\partial y}\right)k$ 
 	think: $\int F \cdot dr = \int \int_R \text{how much F is spinning around points in R}\, dA$ 
 	spinning inside $R$ cancels out, leaving only spinning at boundary, measured by $\oint_C F \cdot dr$
-
-Here is another example:
 
 The **gradient** of $f$, $\operatorname{grad}{f}$ or $\nabla{f}$, is $\nabla f = **f_x i + f_y j**$ . 

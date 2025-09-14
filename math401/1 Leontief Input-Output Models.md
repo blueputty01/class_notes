@@ -6,3 +6,4 @@ The Leontief Input-Output Model is given by: **$\bar{p}=M\bar{p}+\bar{d}$**
 
 Solving for $\bar{d}$ in the Leontief Input-Output model ($\bar{p}=M\bar{p}+\bar{d}$):
 $\bar{p}=**(I-M)^{-1}\bar{d}**$
+***
