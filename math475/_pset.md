@@ -48,3 +48,32 @@ Example: $S(n, 2)$
 	Solution: 
 	$= \frac{2^n - 2}{2}$ 
 	we must assign each element to one of two blocks. avoid the case where one block is empty (two such cases), then divide by 2 because the blocks are non-labelled
+
+# 1.6 The Twelvefold Way
+
+## lecture notes
+
+Ex: How many injective/one-to-one functions $f: [n] \to [k]$ are there? (for each $b \in [k]$ there is at most one $a \in [n]$ such that $f(a) =b$)
+
+Solution: 
+Labeled to labeled, at most 1
+$(k)_n$ such functions
+
+Ex: A multiset is a set where elements may be repeated. How many multisets of size $5$ can be created using $[7] = \{1, 2, \ldots, 7\}$? (relaxing requirement of distinct elements; ie group of elements with repetition; ordering does not matter)
+
+Solution:
+5 balls, 7 bins
+5 unlabeled balls to 7 labeled bins ("counter" of how many 1's, 2's, ... 7's)
+Weak composition $\binom{5 + 7 - 1}{7 - 1}$ ways
+
+Ex: Twenty students split into exactly $4$ study groups. Bob and Carl who must be in the same group. Also, Alice and Diane want to be in the same group. How many ways can we create the 4 study groups?
+
+Solution:
+We treat the pairs each as 1 element, yielding 18 students. We then partition 18 people into exactly 4 blocks (unlabeled) $S(18,4)$
+
+Ex: A function $f: [n] \to [k]$ is monotonically increasing if $f(x) \geq f(y)$ if $x > y$. How many such functions are there?
+
+Solution:
+$k$ bins, $n$ balls
+
+If there's, say $3$ balls in bin $1$, we must use $f(1) = f(2) = f(3) = 1$. Continuing in this manner, the domain values are determined mapped to element $2$ (must be the next integers after 3). That is to say, once the balls are placed in the $k$ bins, the mapping is determined without a labeling of the balls (if a larger domain value was used, it fails the condition)
