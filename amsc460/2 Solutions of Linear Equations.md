@@ -63,4 +63,28 @@ A system is **ill-conditioned** if it cannot handle small variations in input
 Convergence is guaranteed if the matrix $A$ is **strictly diagonally dominant**.  
 > The method updates all components of the new guess $\mathbf{x}^{(n+1)}$ using **only values from the previous iteration** $\mathbf{x}^{(n)}$.  
 > It is a **stationary iterative method**.
+
 ***
+
+# Iterative Methods for Solving Linear Systems
+
+A matrix $A\in\mathbf{R}^{n\times n}$ is said to be strictly diagonally-dominant if for every $i$, $|a_{ii}|>\sum_{j\neq i}|a_{ij}|$
+
+**Jacobi::Jacobi/Gauss-Seidel** iteration can work in parallel
++
+**1::Gauss-Seidel::Jacobi/Gauss-Seidel** works sequentially and requires much less iterations.
+> Gauss-Seidel has smaller spectral radius & uses most up to date convergence values to approximate the solution. Jacobi converges slower; ideally suited for parallel computers
+> The Jacobi and Gauss-Seidel iterative methods are rarely used directly to solve linear systems (modern/faster methods are often used), but are rather used as preconditioners which will be discussed later.
+
+The Gauss-Seidel method is the same as the Jacobi method except **we calculate all $x_i$ sequentially, then iterate $n$ together**.
+> $\begin{aligned}x_1^{(n+1)}=-\frac1{10}\left[x_2^{(n)}-2x_3^{(n)}+2x_4^{(n)}\right]+\frac3{10}\\ x_2^{(n+1)}=\frac18\left[2x_1^{(n)}+x_3^{(n)}-3x_4^{(n)}\right]+\frac{15}8\\x_3^{(n+1)}=-\frac17\left[4x_1^{(n)}-x_2^{(n)}+2x_4^{(n)}\right]-\frac{19}7\\x_4^{(n+1)}=\frac19\left[4x_1^{(n)}+3x_2^{(n)}+x_3^{(n)}\right]+\frac{22}9\end{aligned}$
+> Kalman filtering (recalibrate), data assimilation, power method
+> $x_i^{(k+1)}=\frac1{a_{ii}}\left(b_i-\sum_{j=1}^{i-1}a_{ij}x_j^{(k+1)}-\sum_{j=i+1}^Na_{ij}x_j^{(k)}\right)$
+> $x_i^{(k+1)}=x_i^{(k)}+\frac1{a_{ii}}\left(b_i-\sum_{j=1}^{i-1}a_{ij}x_j^{(k+1)}-\sum_{j=i}^na_{ij}x_j^{(k)}\right)$
+> residual on right
+> Successive Over Relaxation (SOR) method is a variant of this method
+
+Equations may be **rearranged** to achieve diagonal dominant form
+> for $x_1$, which equation has the largest coefficient? etc
+
+ 
