@@ -2,8 +2,7 @@
 > Instead of representing $x$ simply as a single variable (a $1 \times 1$ vector $[x]$) if we represent it by $\left[\begin{array}{c}x\\1\end{array}\right]$ then observe that for any $a$ we have:
 > $\left[\begin{array}{rr}1&a\\0&1\end{array}\right]\left[\begin{array}{r}x\\1\end{array}\right]=\left[\begin{array}{r}x+a\\1\end{array}\right]$
 
-General matrix for rotation of 2D coordinates around the origin in homogeneous coordinates (counterclockwise):
- $R(\theta)=**\left[\begin{array}{rrr}\cos\theta&-\sin\theta&0\\\sin\theta&\cos\theta&0\\0&0&1\end{array}\right]**$
+General matrix for rotation of 2D coordinates around the origin in homogeneous coordinates (counterclockwise): **$R(\theta)=\left[\begin{array}{rrr}\cos\theta&-\sin\theta&0\\\sin\theta&\cos\theta&0\\0&0&1\end{array}\right]$**
  > ![](z_attachments/Pasted%20image%2020250916212349.png)
  > [math.umd.edu/\~immortal/MATH401/book/ch\_computer\_graphics.pdf](https://www.math.umd.edu/~immortal/MATH401/book/ch_computer_graphics.pdf)
 
@@ -16,3 +15,5 @@ To simplify, note:
 
 To rotate around a point other than the origin: 
 **shift to origin, rotate, shift back**
+
+***

@@ -1,10 +1,15 @@
 The height of a tree is the **maximum distance between the root and a leaf**
 > ![|200](z_attachments/Pasted%20image%2020250915112150.png)
 
+***
+
 The height of a null set is **$-1$**
 > ![|300](z_attachments/Pasted%20image%2020250915112457.png)
 
-Levels in *this* class will be **0::0 or 1** index and top down
+
+***
+
+Levels in *this* class will be **zero::0 or 1** index and top down
 > ![|300](z_attachments/Pasted%20image%2020250915112700.png)
 
 Storage options for tree:
@@ -66,3 +71,4 @@ recurse(right)
 
 ---
 
+***

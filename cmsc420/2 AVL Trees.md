@@ -5,3 +5,5 @@ for a node $x$, define $\textrm{balance} = b(x) = **h(\textrm{x.rightsubtree}) -
 
 We say that a BST satisfies the AVL balance condition if: **$\forall \mathrm{~node~x,~b(x)\in\{-1,0,1\}}$**
 
+
+***

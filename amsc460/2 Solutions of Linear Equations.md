@@ -68,7 +68,7 @@ Convergence is guaranteed if the matrix $A$ is **strictly diagonally dominant**
 
 # Iterative Methods for Solving Linear Systems
 
-A matrix $A\in\mathbf{R}^{n\times n}$ is said to be strictly diagonally-dominant if for every $i$, $|a_{ii}|>\sum_{j\neq i}|a_{ij}|$
+A matrix $A\in\mathbf{R}^{n\times n}$ is said to be strictly diagonally-dominant if for every $i$, **$|a_{ii}|>\sum_{j\neq i}|a_{ij}|$**
 
 **Jacobi::Jacobi/Gauss-Seidel** iteration can work in parallel
 +
@@ -87,4 +87,23 @@ The Gauss-Seidel method is the same as the Jacobi method except **we calculate a
 Equations may be **rearranged** to achieve diagonal dominant form
 > for $x_1$, which equation has the largest coefficient? etc
 
- 
+***
+
+The Jacobi iteration can be re-written as **$\mathbf{x}^{(n+1)}=D^{-1}\mathbf{b}+D^{-1}(L+U)\mathbf{x}^{(n)}$**.
+> $T = -D^{-1}(L + U)$
+
+The Gauss-Seidel iteration can be re-written as **$x_i^{(n+1)}=-(D+L)^{-1}Ux_i^{(n)}+(D+L)^{-1}\mathbf{b}$**.
+> $T_{GS} = (D-L)^{-1}U$
+
+The closer the spectral radius (largest magnitude eigenvalue) is to **0**, the **faster** the method converges.
+> written as $\rho$
+> $\rho(T_{GS}) < \rho(T_J)$
+
+
+SOR method: $x_i^{(n+1)}=x_i^{(n)}+\frac{\omega}{a_{ii}}\left(b_i-\sum_{j=1}^{i-1}a_{ij}x_j^{(n+1)}-\sum_{j=i}^{N}a_{ij}x_j^{(n)}\right)$
+Relaxation parameter: $0 < \omega < 2$
+Case 1: $0 < \omega < 1$, under relaxation
+to potentially make it converge (kind of decreasing spectral radius)
++
+Case 2:  $1 < \omega < 2$, over relaxation
+to make it converge faster

@@ -15,4 +15,4 @@ Average height of BST (multiple options):
 	- if we randomly choose in order predecessor/in order successor: $\lg n$ (suggested)
 }}
 
-
+***
