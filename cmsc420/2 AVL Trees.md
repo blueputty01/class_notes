@@ -43,5 +43,16 @@ Right rotation of this tree
 > $A<y<B<x<C$ in both: BST preserved!
 
 Left-Right rotation at $x$ is a **left rotation at $x$'s left child followed by a right rotation at $x$**
+> ![](z_attachments/Pasted%20image%2020250919113239.png)
+
+***
+
+PENDING: Insertion: **insert as normal. If any nodes are unbalanced, they'd be ancestors of $x$. So head up the tree, checking balances as we go.**
++
+Four possible issues
+A) Right-Right Heavy:
+Right-Right subtree is too tall, so apply **left rotation**
+B) Left-Left Heavy
+NEED PICTURE HERE
 
 
