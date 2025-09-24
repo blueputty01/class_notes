@@ -47,12 +47,28 @@ Left-Right rotation at $x$ is a **left rotation at $x$'s left child followed by 
 
 ***
 
-PENDING: Insertion: **insert as normal. If any nodes are unbalanced, they'd be ancestors of $x$. So head up the tree, checking balances as we go.**
-+
-Four possible issues
-A) Right-Right Heavy:
-Right-Right subtree is too tall, so apply **left rotation**
-B) Left-Left Heavy
-NEED PICTURE HERE
+Insertion: **insert as normal. If any nodes are unbalanced, they'd be ancestors of $x$. So head up the tree, checking balances as we go.**
 
+Resolution for Right-Right heavy tree: **left rotation**
+> ![](z_attachments/Pasted%20image%2020250924113300.png)
+
+Resolution for Left-Left heavy tree: **right rotation**
+> ![](z_attachments/Pasted%20image%2020250924113300.png)
+> note that this is an example of a right-right heavy tree
+
+Resolution for Right-Left heavy tree: **right left rotation**
+> ![](z_attachments/Pasted%20image%2020250924113628.png)
+> ![](z_attachments/Pasted%20image%2020250924113643.png)
+
+Resolution for Left-Right heavy tree: **left right rotation**
+> note that this is for a right-left heavy tree
+> ![](z_attachments/Pasted%20image%2020250924113628.png)
+> ![](z_attachments/Pasted%20image%2020250924113643.png)
+
+Insertion time complexity worst case: **$\mathcal{O}(\lg n)$** 
+> Worst case BST insertion step: **$\mathcal{O}(\lg n)$** 
+> Worst case checking for a problem: **$\mathcal{O}(\lg n)$** 
+> note: it turns out that each node can store the heights of its subtrees, and these can be updated when insertion/deletion without making the $\mathcal{O}$ time worse
+
+Deletion: 
 
