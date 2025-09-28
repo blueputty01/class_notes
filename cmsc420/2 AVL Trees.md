@@ -71,4 +71,16 @@ Insertion time complexity worst case: **$\mathcal{O}(\lg n)$**
 > note: it turns out that each node can store the heights of its subtrees, and these can be updated when insertion/deletion without making the $\mathcal{O}$ time worse
 
 Deletion: 
+If it is a leaf node we finally delete. Then **it is possible that its parent is unbalanced so we need to start checking with that parent**. 
++
+If it is not a leaf node we finally delete. Then **1::all the promoted nodes are safe since their balance factors do not change. We do however need to check the parent of the deleted node**.
++
+We **do::do/do not** need to check ancestors as well.
+> shorter for RL heavy but not RR heavy; LR heavy but not LL heavy
+> BST deletion $\mathcal{O}(\lg n)$ because of height
+> number of problems to fix is $\mathcal{O}(\lg n)$
+> Fixing each is $\mathcal{O}(1)$
+> So overall is $\mathcal{O}(\lg n)$
 
+
+***

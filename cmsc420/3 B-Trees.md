@@ -14,4 +14,7 @@ A B-tree of order $m \geq 3$ is an MST with:
 > root is allowed 1 key so we can have B-tree with one key
 > the reason to force other nodes to have $\geq \lceil \frac{m}{2} \rceil  -1$ keys is to stop the tree from degenerating to a BST
 
-Height theorems: suppose a B-tree of order $m \geq 3$ has height $h$ and $k$ keys. Then 
+***
+
+Height theorems: suppose a B-tree of order $m \geq 3$ has height $h$ and $k$ keys. Then  (should complete next class)
+> ![](z_attachments/Pasted%20image%2020250924221712.png)

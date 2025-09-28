@@ -16,3 +16,11 @@ Average height of BST (multiple options):
 }}
 
 ***
+
+A **full** binary tree is a binary tree with either zero or two child nodes for each node.
+
+A **complete** binary tree is a specific type of binary tree that adheres to two main structural properties:
+- All levels, except possibly the last, are completely filled. This means that every node at any level above the last one must have two children.
+- All nodes in the last level are as far left as possible. If the last level is not completely filled, the nodes present in it must occupy the leftmost positions, with no gaps. 
+
+A **perfect** binary tree is a binary tree where all internal nodes have exactly two children, and all leaf nodes are at the same depth.

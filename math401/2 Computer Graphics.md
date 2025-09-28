@@ -19,3 +19,4 @@ To rotate around a point other than the origin:
 ***
 
 To project the perspective, apply the operation **$\left[{\begin{array}{r}x\\y\\0\\1-z/d\end{array}}\right]\div(1-z/d)=\left[{\begin{array}{r}\frac x{1-z/d}\\\frac y{1-z/d}\\0\\1\end{array}}\right]$** after $\left[\begin{array}{rrrr}1&0&0&0\\0&1&0&0\\0&0&0&0\\0&0&-1/d&1\end{array}\right]\left[\begin{array}{r}x\\y\\z\\1\end{array}\right]=\left[\begin{array}{r}x\\y\\0\\1-z/d\end{array}\right]$
+***
