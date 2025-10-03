@@ -24,3 +24,4 @@ A **complete** binary tree is a specific type of binary tree that adheres to two
 - All nodes in the last level are as far left as possible. If the last level is not completely filled, the nodes present in it must occupy the leftmost positions, with no gaps. 
 
 A **perfect** binary tree is a binary tree where all internal nodes have exactly two children, and all leaf nodes are at the same depth.
+***

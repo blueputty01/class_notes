@@ -1,0 +1,1 @@
+The **Jacobian** is $\frac{\partial (x, y)} {\partial(u, v)}  = {{c2::\begin{bmatrix}  \frac{\partial x} {\partial u}  & \frac{\partial x}{\partial v}\\ \frac{\partial y} {\partial u}  & \frac{\partial y} {\partial v}  \end{bmatrix} ={\frac{\partial x} {\partial u} } {\frac{\partial y} {\partial\nu} } -{\frac{\partial x} {\partial\nu} } {\frac{\partial y} {\partial u} } }}$

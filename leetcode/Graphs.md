@@ -45,4 +45,12 @@ graph = {
 bfs(graph, 'A')  # Output: A B C D E F
 ```
 }}
+
 ***
+
+Dijkstra's algorithm steps:
+go to **lowest sum**
+**1::calculate distance to all adjacent nodes if not visited**
+**1::update distance if lower**
+**1::repeat**
+> ![](z_attachments/Pasted%20image%2020251002173944.png)

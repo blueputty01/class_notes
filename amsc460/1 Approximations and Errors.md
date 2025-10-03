@@ -4,4 +4,5 @@ $\textbf{Relative error }\%=**\left(\frac{\mathrm{Exact~solution~-~Computed~solu
 
 Cancellation error: **subtracting two nearly equal numbers**
 > often leads to erroneous result
+
 ***
