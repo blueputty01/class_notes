@@ -49,15 +49,19 @@ Deletion from a B-tree:
 +
 The deleted node will always be a leaf (either since it's replacing a key or it's the key being deleted).
 +
-If the leaf becomes underfull, the first remedy is a **{{c2::key rotation}}** from an adjacent sibling that has more than the minimum number of keys.
+If the leaf becomes underfull, the first remedy is a **c2::key rotation** from an adjacent sibling that has more than the minimum number of keys.
 +
-If no sibling has an extra key, the underfull node must be **{{c3::merged}}** with a sibling, which requires **{{c3::demoting}}** a key from their parent.
+If no sibling has an extra key, the underfull node must be **c3::merged** with a sibling, which requires **c3::demoting** a key from their parent.
 
 ---
 
+Deletion (note the replacement is a leaf)
 ![|400](z_attachments/Pasted%20image%2020251001113806.png)
 
-- If a demotion and merge causes the parent to become underfull, the process repeats recursively up the tree.
+- If a demotion and merge causes the parent to become underful, the process repeats recursively up the tree.
+	- must ensure that when we demote and merge, the newly created node is not overfull
 - If the root is left with only one key and it is demoted, the tree's height decreases.
+- if the root has one key nad its demoted then we get a new root
 
 ---
+
