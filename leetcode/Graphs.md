@@ -48,12 +48,6 @@ bfs(graph, 'A')  # Output: A B C D E F
 
 ***
 
-Dijkstra's algorithm steps:
-go to **lowest sum**
-**1::calculate distance to all adjacent nodes if not visited**
-**1::update distance if lower**
-**1::repeat**
-> ![](z_attachments/Pasted%20image%2020251002173944.png)
 ***
 
 A **complete** graph has an edge between any all node pairs.
@@ -81,3 +75,21 @@ repeat V-1 times:
 ```
 }}
 > cycle detection can be done in O(1) time complexity with union find/disjoint set datastructure
+
+Dijkstra's Algorithm steps:
+- pick **a vertex $x$ not in $S$ with minimum distance** (if there are several, pick any)
+- add to $S$
+- for every vertex $y$ adjacent to $x$:
+{{c1::
+```python
+if dist[x] + w(x,y) < dist[y] 
+	dist[y] = dist[x] + w(x,y)
+	pred[y] = x
+```
+}}
+
+Dijkstra's algorithm returns **the shortest path from a starting vertex to every vertex in the graph**. 
+
+Dijkstra's algorithm **does not::does/does not** produce a minimal spanning tree.
+
+Dijkstra's algorithm **cannot::can/cannot** find the longest path in a graph.
