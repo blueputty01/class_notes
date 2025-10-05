@@ -54,3 +54,30 @@ go to **lowest sum**
 **1::update distance if lower**
 **1::repeat**
 > ![](z_attachments/Pasted%20image%2020251002173944.png)
+***
+
+A **complete** graph has an edge between any all node pairs.
+
+ A **tree** is **a simple, connected, undirected graph with no cycles**.
+	no cycles
+
+A tree with $n$ nodes has **$n-1$** edges 
+	proved with structural induction
+
+A **minimal spanning tree** is a spanning tree with **minimal total weight**.
+
+Prim's Algorithm
+1. **1::adding a vertex to a set**
+2. **1::adding a vertex connected by the minimal adjacent edge weight from any in set**
+3. **1::repeat until all visited**
+
+Kruskal's Algorithm psuedocode: 
+{{c1::
+```
+create T = set of V vertices but no edges
+repeat V-1 times:
+	add an edge u-v of minimal weight in G (not in T)
+		whose inclusion in T doesn't form a cycle
+```
+}}
+> cycle detection can be done in O(1) time complexity with union find/disjoint set datastructure

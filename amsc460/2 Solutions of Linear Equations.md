@@ -101,11 +101,3 @@ The closer the spectral radius (largest magnitude eigenvalue) is to **0**, the *
 
 
 ***
-
-SOR method: $x_i^{(n+1)}=x_i^{(n)}+\frac{\omega}{a_{ii}}\left(b_i-\sum_{j=1}^{i-1}a_{ij}x_j^{(n+1)}-\sum_{j=i}^{N}a_{ij}x_j^{(n)}\right)$
-Relaxation parameter: $0 < \omega < 2$
-Case 1: $0 < \omega < 1$, under relaxation
-to potentially make it converge (kind of decreasing spectral radius)
-+
-Case 2:  $1 < \omega < 2$, over relaxation
-to make it converge faster

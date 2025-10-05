@@ -7,3 +7,4 @@ In general in team ranking, where the equations have the form $r_i - r_j = b$, t
 > so typically, the solution will look like: $\hat{r}=\vec{r}_{0}+t \left(\begin{matrix}1 \\ 1\\1\end{matrix}\right)$
 
  
+***
