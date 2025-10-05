@@ -8,11 +8,6 @@
 - 6
 - 7
 
-## homework
-
-- 2c
-- 3a
-
 # 1.3 The Pigeonhole Principle
 
 ## class notes
@@ -33,7 +28,7 @@ Ex: Prove that if 6 distinct numbers are chosen from $[9] = \{1, 2, 3, 4, 5, 6, 
 	Thus let's consider the new sequence $b_1 = a_1 + 14$, $b_2 = a_2 + 14$, $b_{30} = a_{30} + 14$.
 	Observe that the elements of $\{a_i\}^{30}_{i=1}$ are distinct, and the elements of $\{b_i\}^{30}_{i=1}$ are distinct.
 	However the largest value of the sequences is $59$, but there are 60 sequence values. By the PHP, there exists some $a_i$ equal to $b_j$, so $a_i = b_j = a_j + 14$
-	There exists days $j$ to $i$ where he worked out exactly 14 hours
+	Thus there exists days $j$ to $i$ where he worked out exactly 14 cumulative hours
 
 # 1.4 Compositions and Set Partitions
 
@@ -45,6 +40,12 @@ Example: $S(n, 2)$
 	Solution: 
 	$= \frac{2^n - 2}{2}$ 
 	we must assign each element to one of two blocks. avoid the case where one block is empty (two such cases), then divide by 2 because the blocks are non-labelled
+
+# hw1  (1.1 - 1.3)
+
+- **2c**
+- 3a
+- 7a, b, c
 
 # 1.6 The Twelvefold Way
 
@@ -74,3 +75,6 @@ Solution:
 $k$ bins, $n$ balls
 
 If there's, say $3$ balls in bin $1$, we must use $f(1) = f(2) = f(3) = 1$. Continuing in this manner, the domain values are determined mapped to element $2$ (must be the next integers after 3). That is to say, once the balls are placed in the $k$ bins, the mapping is determined without a labeling of the balls (if a larger domain value was used, it fails the condition)
+
+# hw2 (1.4- 1.6)
+
