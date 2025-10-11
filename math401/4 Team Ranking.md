@@ -6,5 +6,7 @@ In general in team ranking, where the equations have the form $r_i - r_j = b$, t
 > $x$ is in the nullspace of $A$ ($Ax = 0$)
 > so typically, the solution will look like: $\hat{r}=\vec{r}_{0}+t \left(\begin{matrix}1 \\ 1\\1\end{matrix}\right)$
 
- 
+***
+
+Team ranking matrices often have no solution; thus we apply **least squares**
 ***

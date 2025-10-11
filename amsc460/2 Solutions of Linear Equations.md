@@ -99,5 +99,7 @@ The closer the spectral radius (largest magnitude eigenvalue) is to **0**, the *
 > written as $\rho$
 > $\rho(T_{GS}) < \rho(T_J)$
 
+***
 
+The **spectral radius** of a square matrix is the **maximum of the absolute values of its eigenvalues**.
 ***
