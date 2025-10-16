@@ -3,3 +3,5 @@ Idea for recurrence relation example: store consecutive Fibonacci numbers in a v
 So we obtain the matrix:
 **1::$=\left[\begin{matrix}0&1\\1&1\end{matrix}\right]\left[\begin{matrix}F_{k}\\F_{k}\end{matrix}\right]$**
 > then can use $A^k = PD^kP^{-1}$
+
+***
