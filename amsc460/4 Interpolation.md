@@ -17,7 +17,7 @@ $f[x_k,x_{k-1},\ldots,x_1,x_0]=\frac{f[x_k,x_{k-1},\ldots,x_2,x_2]-f[x_{k-1},x_{
 > used to compute the coefficients in the Newton polynomial expression
 > $f(x)=a_0+a_1(x-x_0)+a_2(x-x_0)(x-x_1)+\cdots+a_n(x-x_0)(x-x_1)\ldots(x-x_n)$
 
-Row order approach to write divided difference table:
-For each entry, take entry in next two rows divided by the length of the interval (difference by 2 in first column, then by 3 in next column, etc)
-> $\begin{aligned}&y_{0}&&f[x_1,x_0]&&f[x_2,x_1,x_0]&&f[x_3,x_2,x_1,x_0]&&f[x_4,x_3,x_2,x_1,x_0]\\&y_{1}&&f[x_2,x_1]&&f[x_3,x_2,x_1]&&f[x_4,x_3,x_2,x_1]&&0\\&y_{2}&&f[x_3,x_2]&&f[x_4,x_3,x_2]&&0&&0\\&y_{3}&&f[x_4,x_3]&&0&&0&&0\\&y_{4}&&0&&0&&0&&0\end{aligned}$
+Divided difference table:
+**For each entry, take entry in this row and previous divided by the length of the interval (difference by 2 in first column, then by 3 in next column, etc)**
+> $\begin{aligned}&x_{0}&&y_{0}\\&&&f[x_{1},x_{0}]\\&x_{1}&&y_{1}&&f[x_{2},x_{1},x_{0}]\\&&&f[x_{2},x_{1}]&&f[x_{3},x_{2},x_{1},x_{0}]\\&x_{2}&&y_{2}&&f[x_{3},x_{2},x_{1}]&&f[x_{4},x_{3},x_{2},x_{1},x_{0}]\\&&&f[x_{3},x_{2}]&&f[x_{4},x_{3},x_{2},x_{1}]\\&x_{3}&&y_{3}&&f[x_{4},x_{3},x_{2}]\\&&&f[x_{4},x_{3}]\\&x_{4}&&y_{4}\end{aligned}$
 
