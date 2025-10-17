@@ -4,9 +4,9 @@ If $\overrightarrow{x}=\lim_{k\to\infty}\overrightarrow{x}_{k}=\lim_{k\to\infty}
 > = $\vec{x}$
 > So $x$ is an eigenvector with $\lambda = 1$
 
-A probability vector is a vector $\overrightarrow{v}=\begin{vmatrix}v_{1}\\v_{2}\\\vdots\\v_{n}\end{vmatrix}$ such that $0 \leq v_i \leq 1$ for each $i$ and $v_{1}+v_{2}+\cdots+v_{n}=1$.
 
 An $n \times n$ matrix $T$ is called a **stochastic matrix** if **every column of $T$ is a probability vector**.
+> An $n \times n$ matrix  is called a **stochastic matrix** if **every column of $T$ is a probability vector**.
 > If $T$ is $n \times n$ and stochastic and $\vec{v}$ is an $n \times 1$ probability vector, then $T \vec{v}$ is also a probability vector.
 > The product of two stochastic matrices is stochastic
 > In particular, if $T$ is stochastic, then $T^k$ is stochastic for any possible integer $k$

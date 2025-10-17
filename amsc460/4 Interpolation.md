@@ -9,7 +9,7 @@ Newton polynomial expression:
 > in the most basic form, solve a linear system for the value of the coefficients $a_i$
 
 Divided difference formula:
-$f[x_k,x_{k-1},\ldots,x_1,x_0]=\frac{f[x_k,x_{k-1},\ldots,x_2,x_2]-f[x_{k-1},x_{k-2},\ldots,x_1,x_0]}{x_k-x_0}$
+**$f[x_k,x_{k-1},\ldots,x_1,x_0]=\frac{f[x_k,x_{k-1},\ldots,x_2,x_2]-f[x_{k-1},x_{k-2},\ldots,x_1,x_0]}{x_k-x_0}$**
 > zero order divided difference: $f[x_k] = f(x_k) = y_k$
 > first order divided difference: $f[x_1,x_0]=\frac{y_1-y_0}{x_1-x_0}$
 > second order divided difference: $f[x_2,x_1,x_0]=\frac{\frac{y_2-y_1}{x_2-x_1}-\frac{y_1-y_0}{x_1-x_0}}{x_2-x_0}=\frac{f[x_2,x_1]-f[x_1,x_0]}{x_2-x_1}$
@@ -24,3 +24,4 @@ Divided difference table:
 There are infinite $n$ degree polynomials that fit **$n - 1$** data points.
 
 Once divided differences are **close to zero**, this implies that the polynomial can fit the data reasonably well.
+***
