@@ -21,3 +21,6 @@ Divided difference table:
 **For each entry, take entry in this row and previous divided by the length of the interval (difference by 2 in first column, then by 3 in next column, etc)**
 > $\begin{aligned}&x_{0}&&y_{0}\\&&&f[x_{1},x_{0}]\\&x_{1}&&y_{1}&&f[x_{2},x_{1},x_{0}]\\&&&f[x_{2},x_{1}]&&f[x_{3},x_{2},x_{1},x_{0}]\\&x_{2}&&y_{2}&&f[x_{3},x_{2},x_{1}]&&f[x_{4},x_{3},x_{2},x_{1},x_{0}]\\&&&f[x_{3},x_{2}]&&f[x_{4},x_{3},x_{2},x_{1}]\\&x_{3}&&y_{3}&&f[x_{4},x_{3},x_{2}]\\&&&f[x_{4},x_{3}]\\&x_{4}&&y_{4}\end{aligned}$
 
+There are infinite $n$ degree polynomials that fit **$n - 1$** data points.
+
+Once divided differences are **close to zero**, this implies that the polynomial can fit the data reasonably well.
