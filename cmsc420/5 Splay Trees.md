@@ -17,5 +17,32 @@ Splay operation (`splay(x)`):
 > in this example, we have a left rotation followed by a right rotation
 > right child of a left child
 
+***
 
+Two versions of insertion on a splay tree:
+1. Splay-first version: **call `splay` , and move root either left or right of new root (what we're inserting)** 
+2. Splay-second version: **insert as a standard BST, then `splay` $x$ (to the root)**
+
+---
+
+Time complexity via amortized analysis: $\mathcal{O}(\lg n)$
+
+There is no guarantee that these two methods produce the same result
+
+Splay-first version:
+![](z_attachments/Pasted%20image%2020251017111228.png)
+
+---
+
+Deletion on splay tree:
+1. Splay-first version: **first `splay(x)`, then `splay` on left/right subtree (if two, otherwise simple LL-style deletion) to get IOP/IOS and use that to replace the root (x)**
+2. Splay-second version: **delete as regular BST then splay the parent of the deleted node (if the deleted node is not the root)**
+
+---
+
+Time complexity via amortized analysis is difficult, but frequent splays tend to "balance" the tree: $\mathcal{O}(\lg n)$
+
+![](z_attachments/Pasted%20image%2020251017111820.png)
+
+---
 ***

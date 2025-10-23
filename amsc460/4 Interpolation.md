@@ -24,4 +24,22 @@ Divided difference table:
 There are infinite $n$ degree polynomials that fit **$n - 1$** data points.
 
 Once divided differences are **close to zero**, this implies that the polynomial can fit the data reasonably well.
+
+***
+
+**High** order polynomials have ill conditioning, undershooting, overshooting etc whole host of issues.
+> eg $ax^2 + bx + c$ $b$ dominates for small $x$ but $a$ dominates for large $x$
+
+Quadratic spline **method**:
+- {{c1::The function values of adjacent polynomials must be equal at the interior knots	- $a_ix_i^2+b_ix_i+c_i=a_{i+1}x_i^2+b_{i+1}x_i+c_{i+1}\quad\mathrm{for~}i=1,2,...,n-1$}}
+- {{c1::The first and last functions (quadratic splines) must pass through the end points.
+$\begin{aligned}S_1(x_0)&=y_0\quad\Rightarrow\quad a_1x_0^2+b_1x_0+c_1=y_0\\\\S_n(x_n)&=y_n\quad\Rightarrow\quad a_nx_n^2+b_nx_n+c_n=y_n\end{aligned}$}}
+- {{c1::The first derivative at the interior knots must be equal. 
+$S_i^{\prime}(x_i)=S_{i+1}^{\prime}(x_i)\quad\Rightarrow\quad2a_ix_i+b_i=2a_{i+1}x_i+b_{i+1}\quad\mathrm{for~}i=1,2,...,n-1$}}
+- {{c1::Assume that the second derivative is zero at the first data point.
+$S_1^{\prime\prime}(x_0)=0\quad\Rightarrow\quad2a_1=0\quad\Rightarrow\quad a_1=0$}}
+> Given $n$ points, we have $n -1$ splines, thus we need $3(n-1)$ equations to find all the unknowns
+> Linear spline method:
+> Straight lines at each interval
+
 ***
