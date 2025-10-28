@@ -1,5 +1,19 @@
 # 1 Modern Privacy and Surveillance
 
+public vs private
+
+surveillance vs ?? (no exact term; "absence of surveillance") refers to normalization of surveillance
+
+privacy is not a true opposite of surveillance
+
+Surveillance implies an agent who accesses (whether through discovery tools, rules or physical/logistical settings) personal data. 
+Privacy, in contrast, involves a subject who restricts access to personal data through the same means
+
+Yes, privacy (or better actions taken to restrict access to all or only to insiders) may serve to nullify surveillance. Familiar examples are encryption, whispering and disguises.
+2. But surveillance may serve to protect privacy. Examples include biometric identification and audit trails.
+3. Privacy may serve to protect surveillance. Consider undercover police who use various fronts and false identification to protect their real identity and activities.
+4. Surveillance may serve to nullify privacy (big data, night vision video cameras, drugs tests break through protective borders).
+
 ## panopticon 
 
 bentham -> foucault (less surveillance in society)

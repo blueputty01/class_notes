@@ -46,3 +46,8 @@ Time complexity via amortized analysis is difficult, but frequent splays tend to
 
 ---
 ***
+
+**Zig-zig**: target is **left child of left child or vice versa**, so **two same rotations at grandparent::action**
+
+**Zig-zag**: target is **left child of right child or vice versa**, so **one rotation at parent, and opposite at grandparent::action**
+***

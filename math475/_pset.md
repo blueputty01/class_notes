@@ -1,4 +1,6 @@
-# 1.1 The Basics
+# midterm 1
+
+## 1.1 The Basics
 
 class notes (1.1 Counting Warm-Up handout):
 
@@ -8,13 +10,13 @@ class notes (1.1 Counting Warm-Up handout):
 - 6
 - 7
 
-# hw1  (1.1 - 1.2)
+## hw1  (1.1 - 1.2)
 
 - **2c**
 - 3a
 - 7a, b, c
 
-# 1.3 The Pigeonhole Principle
+## 1.3 The Pigeonhole Principle
 
 Ex: Prove that in a group of 40, at least 4 people have the same birth month
 	Solution: 
@@ -34,7 +36,7 @@ Ex: Prove that if 6 distinct numbers are chosen from $[9] = \{1, 2, 3, 4, 5, 6, 
 	However the largest value of the sequences is $59$, but there are 60 sequence values. By the PHP, there exists some $a_i$ equal to $b_j$, so $a_i = b_j = a_j + 14$
 	Thus there exists days $j$ to $i$ where he worked out exactly 14 cumulative hours
 
-# 1.4 Compositions and Set Partitions
+## 1.4 Compositions and Set Partitions
 
 **Example: Suppose there are 10 cans of Coke, 10 cans of Pepsi, 10 cans of Sprite. How many ways can you take 4 sodas?**
 	Solution: 
@@ -45,7 +47,7 @@ Ex: Prove that if 6 distinct numbers are chosen from $[9] = \{1, 2, 3, 4, 5, 6, 
 	$= \frac{2^n - 2}{2}$ 
 	we must assign each element to one of two blocks. avoid the case where one block is empty (two such cases), then divide by 2 because the blocks are non-labelled
 
-# 1.6 The Twelvefold Way
+## 1.6 The Twelvefold Way
 
 Ex: How many injective/one-to-one functions $f: [n] \to [k]$ are there? (for each $b \in [k]$ there is at most one $a \in [n]$ such that $f(a) =b$)
 	Labeled to labeled, at most 1
@@ -65,21 +67,40 @@ Ex: Twenty students split into exactly $4$ study groups. Bob and Carl must be in
 	If there's, say $3$ balls in bin $1$, we must use $f(1) = f(2) = f(3) = 1$. Continuing in this manner, the domain values are determined mapped to element $2$ (must be the next integers after 3). That is to say, once the balls are placed in the $k$ bins, the mapping is determined without a labeling of the balls (if a larger domain value was used, it fails the condition)
 	it is incorrect to use the integer partition since that requires every value in $[k]$ to be mapped to some element in $[n]$
 
-# hw2 (1.4- 1.6)
+## hw2 (1.4- 1.6)
 
 1, 2, 3, 5, 7, 8
 
-# 1.7 Inclusion Exclusion Principle
+## 1.7 Inclusion Exclusion Principle
 
 Twenty couples attend counseling. They sit at a circular (unlabeled) table, but no partner sits next to their partner. How many seatings are there?
 	![](z_attachments/Pasted%20image%2020251005185424.png)
 	$=\sum_{i=0}^{20}\left(-1\right)^i\binom{20}{i}\left(40-i-1\right)!2^i$ 
 
-# hw3 (1.7-2.2)
+## hw3 (1.7-2.2)
 
 1-3 for inclusion/exclusion formula
 7 for applied ogf to combinatorics (find closed form)
 
-# review (1.1-2.2), midterm 1
+## review (1.1-2.2), midterm 1
 
 4
+
+# midterm 2
+
+## 2.5
+
+## 3.1-3.3
+
+Bipartite graph proof for odd cycles
+
+## 3.4
+
+Proof for equivalent properties of trees
+
+Lecture notes G of order 13.. how many leaves?
+
+## 3.5
+
+- binary trees with $n$ internal vertices
+- rooted plane trees on $n + 1$ vertices

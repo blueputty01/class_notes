@@ -93,4 +93,45 @@ Dijkstra's algorithm returns **the shortest path from a starting vertex to every
 Dijkstra's algorithm **does not::does/does not** produce a minimal spanning tree.
 
 Dijkstra's algorithm **cannot::can/cannot** find the longest path in a graph.
+
 ***
+
+**Union-Find** is used to determine **the connected components** in a graph.
+
+{{c3::
+```python
+n = # number of vertices
+parents = [idx for idx in range(n + 1)]
+rank = [1] * (n + 1)
+
+def find(node):
+	while parents[node] != node:
+		parents[node] = parents[parents[node]] # compress any linked lists
+		node = parents[node]
+	return node
+
+def union(n1, n2):
+	n1, n2 = edge[0], edge[1]
+	p1 = find(n1)
+	p2 = find(n2)
+	if rank[p1] > rank[p2]:
+		parents[p2] = p1
+		rank[p1] += rank[p2]
+		rank[p2] = None
+	else:
+		parents[p1] = p2
+		rank[p2] += rank[p1]
+		rank[p1] = None
+
+for edge in edges:
+	union(p1, p2)
+	
+# disjoint set data structure is now built
+```
+}}
+
+---
+
+each graph is set to have a single parent
+
+---

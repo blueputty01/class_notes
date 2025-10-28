@@ -23,4 +23,14 @@ A stochastic $T$ in a Markov chain is also called a **transition** matrix.
 A **steady state vector** for a stochastic matrix $T$ is a probability vector $\vec{x}$ such that $T\vec{x} = \vec{x}$ (ie $\vec{x}$ is an eigenvector for $T$ with $\lambda = 1$) 
 
 Suppose $T$ is a **regular** stochastic matrix. Then there is a **unique** steady state vector $\vec{v}$ for $T$. Further, if $\vec{x}_0$ is any probability vector, then $\lim_{k\to\infty}T^k \vec{x}_0 = \vec{v}$. 
+
 ***
+
+A probability vector is a vector **whose entries lie between 0 and 1 (inclusive) and add to 1**.
+
+The $(i, j)$ entry of $T^k$ is the probability of **moving from state $j$ to state $i$** in exactly $k$ steps.
+> the $(i, j)$ entry of $T^2$ is $\sum_{k=1}^{n}t_{ik}t_{kj}$
+> notice that this is all the combinations of $j \rightarrow i$ through all possible $k$ intermediaries
+> (row $i$ and column $j$)
+
+**Regularity** of $T$ means that there is an integer $k \geq 1$ such that it is possible to move from any state to any other state in exactly $k$ steps.
