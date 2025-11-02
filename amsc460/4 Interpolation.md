@@ -57,5 +57,32 @@ Cubic spline addition to quadratic polynomial:
 also enforce **second derivative equivalence**
 Natural cubic spline refers to **second derivative being zero at first and last data points**
 
-
 ***
+
+Let $P(t)$ represent the total population of a series at time $t$. The continuous time Malthusian model is given by: **$\frac{dp}{dt} = \alpha P$**
+
+---
+
+If $\alpha > 0$, population grows exponentially. If $\alpha < 0$, population declines (and goes extinct)
+
+Discrete time model: Let $P_n$ represent the total human population at a particular decade ($n$). The discrete-time Malthusian model is given by $P_{n+1} = P_n + r P_n = (r + 1) P_n$
+
+The closed form of the recurrence relation is $P_n = P_0 (1 + r)^n$.
+
+Take average of all growth rates to find a solution close to least squares solution
+
+Malthusian model is most enthusiastic (ie population growth not limited by food, etc)
+
+---
+
+General discrete-time dynamical population model:
+$P_{n+1} = f(P_n)$
+Logistic growth model:
+Malthusian growth uses linear growth: $f(P) = P + rP$
+Logistic growth uses quadratic growth: $f(P) = P + rP(1 - P/M)$ (Verhulst logistic growth model)
+
+---
+
+Many different nonlinear forms of $f(P)$ are used with different interpretations and mathematical behaviors.
+
+---
