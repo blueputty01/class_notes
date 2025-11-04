@@ -32,3 +32,5 @@ Deletion algorithm:
 - Then **merge branch above the ancestor with the branch below it**
 
 
+
+***
