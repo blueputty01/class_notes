@@ -21,3 +21,14 @@ Search suffix is empty
 Search suffix doesn't partially match, so add new suffix branch to node
 Search suffix partially matches one of the branch labels: 
 **Replace that branch by a new branch with the partial match. The split into previous suffix and remaining suffix.**
+
+***
+
+Deletion algorithm:
+- Go back up the tree to the closest ancestor node which has other child branches and remove all edges from the node down to the leaf.
+- If the ancestor node has just one child branch and:
+- the child branch isn't $
+- the ancestor node isn't root
+- Then **merge branch above the ancestor with the branch below it**
+
+

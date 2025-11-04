@@ -41,3 +41,4 @@ If we're at a splitting node:
 - only visit a child if the child's bounding box intersects with the box
 
 ---
+***

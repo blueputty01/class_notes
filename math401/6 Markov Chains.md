@@ -34,3 +34,5 @@ The $(i, j)$ entry of $T^k$ is the probability of **moving from state $j$ to sta
 > (row $i$ and column $j$)
 
 **Regularity** of $T$ means that there is an integer $k \geq 1$ such that it is possible to move from any state to any other state in exactly $k$ steps.
+
+***

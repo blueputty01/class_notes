@@ -88,6 +88,8 @@ Twenty couples attend counseling. They sit at a circular (unlabeled) table, but 
 
 # midterm 2
 
+no catalan numbers, know odd/even, weak composition OGF
+
 ## 2.5
 
 ## 3.1-3.3
@@ -104,3 +106,4 @@ Lecture notes G of order 13.. how many leaves?
 
 - binary trees with $n$ internal vertices
 - rooted plane trees on $n + 1$ vertices
+

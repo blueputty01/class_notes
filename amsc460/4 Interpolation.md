@@ -79,10 +79,11 @@ General discrete-time dynamical population model:
 $P_{n+1} = f(P_n)$
 Logistic growth model:
 Malthusian growth uses linear growth: $f(P) = P + rP$
-Logistic growth uses quadratic growth: $f(P) = P + rP(1 - P/M)$ (Verhulst logistic growth model)
+Logistic growth uses quadratic growth: **$f(P) = P + rP(1 - P/M)$ (Verhulst logistic growth model)**
 
 ---
 
 Many different nonlinear forms of $f(P)$ are used with different interpretations and mathematical behaviors.
 
 ---
+***

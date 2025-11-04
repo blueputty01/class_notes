@@ -12,3 +12,4 @@ Assumptions on random websurfer (RW):
 3. **2::If the page has no outbound links, choose a random page (represented by $1/n$ in matrix)**
 4. RW does this forever
 > so for example: $T=\frac{0.15}{4}\left[\begin{array}{rrrr}1&1&1&1\\1&1&1&1\\1&1&1&1\\1&1&1&1\end{array}\right]+0.85\left[\begin{array}{rrrr}0&0&0&0\\1/2&0&0&0\\1/2&1&0&1\\0&0&1&0\end{array}\right]$
+***
